@@ -36,8 +36,8 @@ except ImportError:
 
 #adapted from https://github.com/lh3/minimap2/blob/master/setup.py
 
-sources=['src/pysigfish.pyx']
-depends=['src/pysigfish.pxd', ]
+sources=['python/pysigfish.pyx', 'sigfish/src/sigfish.c']
+depends=['python/pysigfish.pxd', 'python/pysigfish.h', 'sigfish/include/sigfish.h']
 extra_compile_args = ['-g', '-Wall', '-O2', '-std=c99']
 # extra_compile_args = []
 # os.environ["CFLAGS"] = '-g -Wall -O2 -std=c99'

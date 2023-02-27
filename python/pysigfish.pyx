@@ -23,7 +23,7 @@ cdef class start:
 
     '''
     cdef sigfish_state_t *state
-    cdef const char* REF
+    cdef char* REF
     cdef int NUM_CHANNELS
     cdef int NUM_THREADS
     cdef sigfish_read_t *sbatch

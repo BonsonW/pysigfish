@@ -18,9 +18,9 @@ include_dirs = []
 # for the install.
 try:
     import numpy as np
-    include_dirs = ['include/', np.get_include(), 'thirdparty/streamvbyte/include']
+    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/', np.get_include()]
 except ImportError:
-    include_dirs = ['include/', 'thirdparty/streamvbyte/include']
+    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/']
     def np(*args, ** kwargs ):
         import numpy as np
         return np(*args, ** kwargs)

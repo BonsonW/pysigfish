@@ -1253,7 +1253,7 @@ typedef npy_cdouble __pyx_t_5numpy_complex_t;
 struct __pyx_obj_9pysigfish_start {
   PyObject_HEAD
   sigfish_state_t *state;
-  char const *REF;
+  char *REF;
   int NUM_CHANNELS;
   int NUM_THREADS;
   sigfish_read_t *sbatch;
@@ -2340,7 +2340,7 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  *         self.NUM_CHANNELS = 0
  *         self.NUM_THREADS = 0
  */
-  __pyx_v_self->REF = ((char const *)"");
+  __pyx_v_self->REF = ((char *)"");
 
   /* "pysigfish.pyx":40
  *         self.state = NULL

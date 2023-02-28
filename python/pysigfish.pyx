@@ -24,14 +24,19 @@ cdef class start:
     '''
     cdef sigfish_state_t *state
     cdef char* REF
+    cdef char* out_paf
     cdef int NUM_CHANNELS
     cdef int NUM_THREADS
     cdef sigfish_read_t *sbatch
     cdef sigfish_status *status
     cdef int batch_len
+    cdef object logger
+    cdef char* rid
+    cdef int8_t no_full_ref
+    cdef sigfish_opt_t opt
 
 
-    def __cinit__(self, ref, channels=512, threads=8, DEBUG=0):
+    def __cinit__(self, ref, paf, channels=512, threads=8, dev=0):
         '''
         C init
         '''
@@ -42,12 +47,15 @@ cdef class start:
         self.sbatch = NULL
         self.status = NULL
         self.batch_len = 0
+        self.rid = ""
+        # self.opt = NULL
+        self.out_paf = ""
+        self.no_full_ref = 0
 
 
         # sets up logging level/verbosity
-        self.V = DEBUG
         self.logger = logging.getLogger(__name__)
-        if self.V == 1:
+        if dev == 1:
             lev = logging.DEBUG
         else:
             lev = logging.WARNING
@@ -59,10 +67,20 @@ cdef class start:
 
         REF = str.encode(ref)
         self.REF = strdup(REF)
+        PAF = str.encode(paf)
+        self.out_paf = strdup(PAF)
         self.NUM_CHANNELS = channels
         self.NUM_THREADS = threads
-
-        self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)
+        '''
+        int num_thread;
+		const char *debug_paf;
+		int8_t no_full_ref;
+        '''
+        self.opt.num_thread = self.NUM_THREADS
+        self.opt.debug_paf = self.out_paf
+        # self.opt.debug_paf = NULL
+        self.opt.no_full_ref = self.no_full_ref
+        self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
         if self.state is NULL:
             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
         
@@ -71,7 +89,7 @@ cdef class start:
 
 
     
-    def __init__(self, ref, channels=512, threads=8, DEBUG=0):
+    def __init__(self, ref, paf, channels=512, threads=8, dev=0):
         '''
         python init
         '''
@@ -81,11 +99,16 @@ cdef class start:
         '''
         free memory
         '''
+        # if self.out_paf is not NULL:
+        #     free(self.out_paf)
+        # free(self.opt)
+        self.logger.debug("free state")
         if self.state is not NULL:
             free_sigfish(self.state)
-
+        self.logger.debug("free REF")
         if self.REF is not NULL:
             free(self.REF)
+        
     
 
     def process_batch(self, batch, signal_dtype):
@@ -107,11 +130,21 @@ cdef class start:
         chunk_length = read.chunk_length
         raw_data = numpy.fromstring(read.raw_data, dtype)
         '''
+        # self.logger.debug("allocating sbatch memory")
         self.batch_len = len(batch)
         self.sbatch = <sigfish_read_t *> malloc(sizeof(sigfish_read_t)*self.batch_len)
+        # self.logger.debug("batch data:")
+        # for channel, read in batch:
+        #     self.logger.debug("channel: {}, read_number: {}".format(channel, read.number))
+        #     break
 
-        for idx, channel, read in enumerate(batch):
+        # self.logger.debug("starting build sbatch for loop")
+        idx = 0
+        for channel, read in batch:
             self.sbatch[idx].read_number = read.number
+            rid = str.encode(read.id)
+            self.rid = strdup(rid)
+            self.sbatch[idx].read_id = self.rid
             self.sbatch[idx].channel = channel
             self.sbatch[idx].len_raw_signal = read.chunk_length
             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)
@@ -119,19 +152,31 @@ cdef class start:
             memview = memoryview(sig)
             for i in range(read.chunk_length):
                 self.sbatch[idx].raw_signal[i] = memview[i]
+            idx += 1
 
+        self.logger.debug("calling process_sigfish")
         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
+        self.logger.debug("process_sigfish done")
 
+        self.logger.debug("building return")
         status_dic = {}
-        for idx, channel, read in enumerate(batch):
-            status_dic[channel] = (read.channel, read.number, read.id, self.status[idx])
-        
+        idx = 0
+        for channel, read in batch:
+            status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+            idx += 1
+        self.logger.debug("freeing memory")
         # free memory
         for i in range(self.batch_len):
-            for j in range(self.sbatch[i].len_raw_signal):
-                free(self.sbatch[i].raw_signal)
+            free(self.sbatch[i].raw_signal)
+            # for j in range(self.sbatch[i].len_raw_signal):
+                # free(self.sbatch[i].raw_signal[j])
+        self.logger.debug("free sbatch")
         free(self.sbatch)
+        self.logger.debug("free status")
         free(self.status)
+        # self.logger.debug("free rid")
+        # free(self.rid)
 
+        self.logger.debug("returning")
         return status_dic
 

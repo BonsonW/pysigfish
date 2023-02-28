@@ -988,10 +988,10 @@ static const char *__pyx_f[] = {
   "python/pysigfish.pyx",
   "stringsource",
   "__init__.pxd",
-  "type.pxd",
+  ".eggs/Cython-0.29.33-py3.8-linux-x86_64.egg/Cython/Includes/cpython/type.pxd",
 };
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":689
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1000,7 +1000,7 @@ static const char *__pyx_f[] = {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":690
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1009,7 +1009,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":691
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1018,7 +1018,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":692
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1027,7 +1027,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":696
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1036,7 +1036,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":697
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1045,7 +1045,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":698
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1054,7 +1054,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":699
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1063,7 +1063,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":703
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1072,7 +1072,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":704
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1081,7 +1081,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":713
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1090,7 +1090,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":714
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1099,7 +1099,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":715
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1108,7 +1108,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":717
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1117,7 +1117,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":718
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1126,7 +1126,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":719
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1135,7 +1135,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":721
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1144,7 +1144,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":722
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1153,7 +1153,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":724
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1162,7 +1162,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":725
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1171,7 +1171,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":726
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1207,7 +1207,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 /*--- Type declarations ---*/
 struct __pyx_obj_9pysigfish_start;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":728
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1216,7 +1216,7 @@ struct __pyx_obj_9pysigfish_start;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":729
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1225,7 +1225,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":730
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1234,7 +1234,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":732
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1254,11 +1254,16 @@ struct __pyx_obj_9pysigfish_start {
   PyObject_HEAD
   sigfish_state_t *state;
   char *REF;
+  char *out_paf;
   int NUM_CHANNELS;
   int NUM_THREADS;
   sigfish_read_t *sbatch;
   enum sigfish_status *status;
   int batch_len;
+  PyObject *logger;
+  char *rid;
+  int8_t no_full_ref;
+  sigfish_opt_t opt;
 };
 
 
@@ -1336,6 +1341,10 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject
 /* GetBuiltinName.proto */
 static PyObject *__Pyx_GetBuiltinName(PyObject *name);
 
+/* RaiseArgTupleInvalid.proto */
+static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
+    Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found);
+
 /* RaiseDoubleKeywords.proto */
 static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_name);
 
@@ -1343,10 +1352,6 @@ static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_n
 static int __Pyx_ParseOptionalKeywords(PyObject *kwds, PyObject **argnames[],\
     PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args,\
     const char* function_name);
-
-/* RaiseArgTupleInvalid.proto */
-static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
-    Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found);
 
 /* PyThreadStateGet.proto */
 #if CYTHON_FAST_THREAD_STATE
@@ -1616,15 +1621,6 @@ static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject 
   #define __Pyx_TraceLine(lineno, nogil, goto_error)   if ((1)); else goto_error;
 #endif
 
-/* PyObjectSetAttrStr.proto */
-#if CYTHON_USE_TYPE_SLOTS
-#define __Pyx_PyObject_DelAttrStr(o,n) __Pyx_PyObject_SetAttrStr(o, n, NULL)
-static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value);
-#else
-#define __Pyx_PyObject_DelAttrStr(o,n)   PyObject_DelAttr(o,n)
-#define __Pyx_PyObject_SetAttrStr(o,n,v) PyObject_SetAttr(o,n,v)
-#endif
-
 /* PyDictVersioning.proto */
 #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
 #define __PYX_DICT_VERSION_INIT  ((PY_UINT64_T) -1)
@@ -1775,6 +1771,14 @@ static CYTHON_INLINE PyObject *__Pyx_GetItemInt_Fast(PyObject *o, Py_ssize_t i,
 static CYTHON_INLINE PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key);
 #else
 #define __Pyx_PyObject_GetItem(obj, key)  PyObject_GetItem(obj, key)
+#endif
+
+/* PyIntBinop.proto */
+#if !CYTHON_COMPILING_IN_PYPY
+static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, long intval, int inplace, int zerodivision_check);
+#else
+#define __Pyx_PyInt_AddObjC(op1, op2, intval, inplace, zerodivision_check)\
+    (inplace ? PyNumber_InPlaceAdd(op1, op2) : PyNumber_Add(op1, op2))
 #endif
 
 /* RaiseException.proto */
@@ -1994,9 +1998,6 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__sigfish_status(enum sigfis
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value);
 
 /* CIntToPy.proto */
-static CYTHON_INLINE PyObject* __Pyx_PyInt_From_uint64_t(uint64_t value);
-
-/* CIntToPy.proto */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
 
 /* CIntFromPy.proto */
@@ -2073,13 +2074,13 @@ int __pyx_module_is_main_pysigfish = 0;
 
 /* Implementation of 'pysigfish' */
 static PyObject *__pyx_builtin_MemoryError;
-static PyObject *__pyx_builtin_enumerate;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_ImportError;
-static const char __pyx_k_V[] = "V";
 static const char __pyx_k_id[] = "id";
 static const char __pyx_k_np[] = "np";
+static const char __pyx_k_dev[] = "dev";
+static const char __pyx_k_paf[] = "paf";
 static const char __pyx_k_ref[] = "ref";
 static const char __pyx_k_sys[] = "sys";
 static const char __pyx_k_copy[] = "copy";
@@ -2098,34 +2099,40 @@ static const char __pyx_k_start[] = "start";
 static const char __pyx_k_encode[] = "encode";
 static const char __pyx_k_format[] = "format";
 static const char __pyx_k_import[] = "__import__";
-static const char __pyx_k_logger[] = "logger";
 static const char __pyx_k_number[] = "number";
 static const char __pyx_k_reduce[] = "__reduce__";
 static const char __pyx_k_WARNING[] = "WARNING";
-static const char __pyx_k_channel[] = "channel";
 static const char __pyx_k_datefmt[] = "datefmt";
 static const char __pyx_k_logging[] = "logging";
 static const char __pyx_k_threads[] = "threads";
 static const char __pyx_k_channels[] = "channels";
+static const char __pyx_k_free_REF[] = "free REF";
 static const char __pyx_k_getstate[] = "__getstate__";
 static const char __pyx_k_raw_data[] = "raw_data";
 static const char __pyx_k_setstate[] = "__setstate__";
 static const char __pyx_k_TypeError[] = "TypeError";
-static const char __pyx_k_enumerate[] = "enumerate";
 static const char __pyx_k_getLogger[] = "getLogger";
 static const char __pyx_k_reduce_ex[] = "__reduce_ex__";
+static const char __pyx_k_returning[] = "returning";
+static const char __pyx_k_free_state[] = "free state";
 static const char __pyx_k_fromstring[] = "fromstring";
 static const char __pyx_k_memoryview[] = "memoryview";
 static const char __pyx_k_ImportError[] = "ImportError";
 static const char __pyx_k_MemoryError[] = "MemoryError";
 static const char __pyx_k_basicConfig[] = "basicConfig";
 static const char __pyx_k_d_b_y_H_M_S[] = "%d-%b-%y %H:%M:%S";
+static const char __pyx_k_free_sbatch[] = "free sbatch";
+static const char __pyx_k_free_status[] = "free status";
 static const char __pyx_k_chunk_length[] = "chunk_length";
 static const char __pyx_k_signal_dtype[] = "signal_dtype";
 static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
+static const char __pyx_k_freeing_memory[] = "freeing memory";
+static const char __pyx_k_building_return[] = "building return";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_initiating_sigfish[] = "initiating sigfish";
+static const char __pyx_k_process_sigfish_done[] = "process_sigfish done";
+static const char __pyx_k_calling_process_sigfish[] = "calling process_sigfish";
 static const char __pyx_k_asctime_s_levelname_s_message_s[] = "%(asctime)s - [%(levelname)s]: %(message)s";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_Ref_could_not_be_opened_and_sigf[] = "Ref '{}' could not be opened and sigfish not initialised";
@@ -2136,12 +2143,12 @@ static PyObject *__pyx_n_s_ImportError;
 static PyObject *__pyx_n_s_MemoryError;
 static PyObject *__pyx_kp_u_Ref_could_not_be_opened_and_sigf;
 static PyObject *__pyx_n_s_TypeError;
-static PyObject *__pyx_n_s_V;
 static PyObject *__pyx_n_s_WARNING;
 static PyObject *__pyx_kp_u_asctime_s_levelname_s_message_s;
 static PyObject *__pyx_n_s_basicConfig;
 static PyObject *__pyx_n_s_batch;
-static PyObject *__pyx_n_s_channel;
+static PyObject *__pyx_kp_u_building_return;
+static PyObject *__pyx_kp_u_calling_process_sigfish;
 static PyObject *__pyx_n_s_channels;
 static PyObject *__pyx_n_s_chunk_length;
 static PyObject *__pyx_n_s_cline_in_traceback;
@@ -2149,10 +2156,15 @@ static PyObject *__pyx_n_s_copy;
 static PyObject *__pyx_kp_u_d_b_y_H_M_S;
 static PyObject *__pyx_n_s_datefmt;
 static PyObject *__pyx_n_s_debug;
+static PyObject *__pyx_n_s_dev;
 static PyObject *__pyx_n_s_encode;
-static PyObject *__pyx_n_s_enumerate;
 static PyObject *__pyx_n_s_error;
 static PyObject *__pyx_n_s_format;
+static PyObject *__pyx_kp_u_free_REF;
+static PyObject *__pyx_kp_u_free_sbatch;
+static PyObject *__pyx_kp_u_free_state;
+static PyObject *__pyx_kp_u_free_status;
+static PyObject *__pyx_kp_u_freeing_memory;
 static PyObject *__pyx_n_s_fromstring;
 static PyObject *__pyx_n_s_getLogger;
 static PyObject *__pyx_n_s_getstate;
@@ -2160,7 +2172,6 @@ static PyObject *__pyx_n_s_id;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_kp_u_initiating_sigfish;
 static PyObject *__pyx_n_s_level;
-static PyObject *__pyx_n_s_logger;
 static PyObject *__pyx_n_s_logging;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_memoryview;
@@ -2171,12 +2182,15 @@ static PyObject *__pyx_n_s_number;
 static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_kp_u_numpy_core_multiarray_failed_to;
 static PyObject *__pyx_kp_u_numpy_core_umath_failed_to_impor;
+static PyObject *__pyx_n_s_paf;
+static PyObject *__pyx_kp_u_process_sigfish_done;
 static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_raw_data;
 static PyObject *__pyx_n_s_reduce;
 static PyObject *__pyx_n_s_reduce_cython;
 static PyObject *__pyx_n_s_reduce_ex;
 static PyObject *__pyx_n_s_ref;
+static PyObject *__pyx_n_u_returning;
 static PyObject *__pyx_n_s_setstate;
 static PyObject *__pyx_n_s_setstate_cython;
 static PyObject *__pyx_n_s_signal_dtype;
@@ -2185,8 +2199,8 @@ static PyObject *__pyx_n_s_sys;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_threads;
 static PyObject *__pyx_n_s_time;
-static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_start *__pyx_v_self, PyObject *__pyx_v_ref, PyObject *__pyx_v_channels, PyObject *__pyx_v_threads, PyObject *__pyx_v_DEBUG); /* proto */
-static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9pysigfish_start *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_ref, CYTHON_UNUSED PyObject *__pyx_v_channels, CYTHON_UNUSED PyObject *__pyx_v_threads, CYTHON_UNUSED PyObject *__pyx_v_DEBUG); /* proto */
+static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_start *__pyx_v_self, PyObject *__pyx_v_ref, PyObject *__pyx_v_paf, PyObject *__pyx_v_channels, PyObject *__pyx_v_threads, PyObject *__pyx_v_dev); /* proto */
+static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9pysigfish_start *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_ref, CYTHON_UNUSED PyObject *__pyx_v_paf, CYTHON_UNUSED PyObject *__pyx_v_channels, CYTHON_UNUSED PyObject *__pyx_v_threads, CYTHON_UNUSED PyObject *__pyx_v_dev); /* proto */
 static void __pyx_pf_9pysigfish_5start_4__dealloc__(struct __pyx_obj_9pysigfish_start *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_9pysigfish_5start_6process_batch(struct __pyx_obj_9pysigfish_start *__pyx_v_self, PyObject *__pyx_v_batch, PyObject *__pyx_v_signal_dtype); /* proto */
 static PyObject *__pyx_pf_9pysigfish_5start_8__reduce_cython__(CYTHON_UNUSED struct __pyx_obj_9pysigfish_start *__pyx_v_self); /* proto */
@@ -2202,10 +2216,10 @@ static PyObject *__pyx_tuple__3;
 static PyObject *__pyx_tuple__4;
 /* Late includes */
 
-/* "pysigfish.pyx":34
+/* "pysigfish.pyx":39
  * 
  * 
- *     def __cinit__(self, ref, channels=512, threads=8, DEBUG=0):             # <<<<<<<<<<<<<<
+ *     def __cinit__(self, ref, paf, channels=512, threads=8, dev=0):             # <<<<<<<<<<<<<<
  *         '''
  *         C init
  */
@@ -2214,9 +2228,10 @@ static PyObject *__pyx_tuple__4;
 static int __pyx_pw_9pysigfish_5start_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static int __pyx_pw_9pysigfish_5start_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_ref = 0;
+  PyObject *__pyx_v_paf = 0;
   PyObject *__pyx_v_channels = 0;
   PyObject *__pyx_v_threads = 0;
-  PyObject *__pyx_v_DEBUG = 0;
+  PyObject *__pyx_v_dev = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -2224,15 +2239,17 @@ static int __pyx_pw_9pysigfish_5start_1__cinit__(PyObject *__pyx_v_self, PyObjec
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__ (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_ref,&__pyx_n_s_channels,&__pyx_n_s_threads,&__pyx_n_s_DEBUG,0};
-    PyObject* values[4] = {0,0,0,0};
-    values[1] = ((PyObject *)__pyx_int_512);
-    values[2] = ((PyObject *)__pyx_int_8);
-    values[3] = ((PyObject *)__pyx_int_0);
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_ref,&__pyx_n_s_paf,&__pyx_n_s_channels,&__pyx_n_s_threads,&__pyx_n_s_dev,0};
+    PyObject* values[5] = {0,0,0,0,0};
+    values[2] = ((PyObject *)__pyx_int_512);
+    values[3] = ((PyObject *)__pyx_int_8);
+    values[4] = ((PyObject *)__pyx_int_0);
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
         case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
         CYTHON_FALLTHROUGH;
         case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
@@ -2251,62 +2268,71 @@ static int __pyx_pw_9pysigfish_5start_1__cinit__(PyObject *__pyx_v_self, PyObjec
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
-        if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_channels);
-          if (value) { values[1] = value; kw_args--; }
+        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_paf)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 2, 5, 1); __PYX_ERR(0, 39, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_threads);
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_channels);
           if (value) { values[2] = value; kw_args--; }
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_DEBUG);
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_threads);
           if (value) { values[3] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  4:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_dev);
+          if (value) { values[4] = value; kw_args--; }
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(0, 34, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(0, 39, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
         case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
         CYTHON_FALLTHROUGH;
         case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
         CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        CYTHON_FALLTHROUGH;
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
         break;
         default: goto __pyx_L5_argtuple_error;
       }
     }
     __pyx_v_ref = values[0];
-    __pyx_v_channels = values[1];
-    __pyx_v_threads = values[2];
-    __pyx_v_DEBUG = values[3];
+    __pyx_v_paf = values[1];
+    __pyx_v_channels = values[2];
+    __pyx_v_threads = values[3];
+    __pyx_v_dev = values[4];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 34, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 39, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("pysigfish.start.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_9pysigfish_5start___cinit__(((struct __pyx_obj_9pysigfish_start *)__pyx_v_self), __pyx_v_ref, __pyx_v_channels, __pyx_v_threads, __pyx_v_DEBUG);
+  __pyx_r = __pyx_pf_9pysigfish_5start___cinit__(((struct __pyx_obj_9pysigfish_start *)__pyx_v_self), __pyx_v_ref, __pyx_v_paf, __pyx_v_channels, __pyx_v_threads, __pyx_v_dev);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_start *__pyx_v_self, PyObject *__pyx_v_ref, PyObject *__pyx_v_channels, PyObject *__pyx_v_threads, PyObject *__pyx_v_DEBUG) {
+static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_start *__pyx_v_self, PyObject *__pyx_v_ref, PyObject *__pyx_v_paf, PyObject *__pyx_v_channels, PyObject *__pyx_v_threads, PyObject *__pyx_v_dev) {
   PyObject *__pyx_v_lev = NULL;
   PyObject *__pyx_v_REF = NULL;
+  PyObject *__pyx_v_PAF = NULL;
   int __pyx_r;
   __Pyx_TraceDeclarations
   __Pyx_RefNannyDeclarations
@@ -2317,14 +2343,16 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   int __pyx_t_5;
   char const *__pyx_t_6;
   int __pyx_t_7;
-  PyObject *__pyx_t_8 = NULL;
+  char *__pyx_t_8;
+  int8_t __pyx_t_9;
+  PyObject *__pyx_t_10 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__cinit__", 0);
-  __Pyx_TraceCall("__cinit__", __pyx_f[0], 34, 0, __PYX_ERR(0, 34, __pyx_L1_error));
+  __Pyx_TraceCall("__cinit__", __pyx_f[0], 39, 0, __PYX_ERR(0, 39, __pyx_L1_error));
 
-  /* "pysigfish.pyx":38
+  /* "pysigfish.pyx":43
  *         C init
  *         '''
  *         self.state = NULL             # <<<<<<<<<<<<<<
@@ -2333,7 +2361,7 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   __pyx_v_self->state = NULL;
 
-  /* "pysigfish.pyx":39
+  /* "pysigfish.pyx":44
  *         '''
  *         self.state = NULL
  *         self.REF = ""             # <<<<<<<<<<<<<<
@@ -2342,7 +2370,7 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   __pyx_v_self->REF = ((char *)"");
 
-  /* "pysigfish.pyx":40
+  /* "pysigfish.pyx":45
  *         self.state = NULL
  *         self.REF = ""
  *         self.NUM_CHANNELS = 0             # <<<<<<<<<<<<<<
@@ -2351,7 +2379,7 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   __pyx_v_self->NUM_CHANNELS = 0;
 
-  /* "pysigfish.pyx":41
+  /* "pysigfish.pyx":46
  *         self.REF = ""
  *         self.NUM_CHANNELS = 0
  *         self.NUM_THREADS = 0             # <<<<<<<<<<<<<<
@@ -2360,7 +2388,7 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   __pyx_v_self->NUM_THREADS = 0;
 
-  /* "pysigfish.pyx":42
+  /* "pysigfish.pyx":47
  *         self.NUM_CHANNELS = 0
  *         self.NUM_THREADS = 0
  *         self.sbatch = NULL             # <<<<<<<<<<<<<<
@@ -2369,46 +2397,64 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   __pyx_v_self->sbatch = NULL;
 
-  /* "pysigfish.pyx":43
+  /* "pysigfish.pyx":48
  *         self.NUM_THREADS = 0
  *         self.sbatch = NULL
  *         self.status = NULL             # <<<<<<<<<<<<<<
  *         self.batch_len = 0
- * 
+ *         self.rid = ""
  */
   __pyx_v_self->status = NULL;
 
-  /* "pysigfish.pyx":44
+  /* "pysigfish.pyx":49
  *         self.sbatch = NULL
  *         self.status = NULL
  *         self.batch_len = 0             # <<<<<<<<<<<<<<
- * 
- * 
+ *         self.rid = ""
+ *         # self.opt = NULL
  */
   __pyx_v_self->batch_len = 0;
 
-  /* "pysigfish.pyx":48
+  /* "pysigfish.pyx":50
+ *         self.status = NULL
+ *         self.batch_len = 0
+ *         self.rid = ""             # <<<<<<<<<<<<<<
+ *         # self.opt = NULL
+ *         self.out_paf = ""
+ */
+  __pyx_v_self->rid = ((char *)"");
+
+  /* "pysigfish.pyx":52
+ *         self.rid = ""
+ *         # self.opt = NULL
+ *         self.out_paf = ""             # <<<<<<<<<<<<<<
+ *         self.no_full_ref = 0
+ * 
+ */
+  __pyx_v_self->out_paf = ((char *)"");
+
+  /* "pysigfish.pyx":53
+ *         # self.opt = NULL
+ *         self.out_paf = ""
+ *         self.no_full_ref = 0             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __pyx_v_self->no_full_ref = 0;
+
+  /* "pysigfish.pyx":57
  * 
  *         # sets up logging level/verbosity
- *         self.V = DEBUG             # <<<<<<<<<<<<<<
- *         self.logger = logging.getLogger(__name__)
- *         if self.V == 1:
- */
-  if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_V, __pyx_v_DEBUG) < 0) __PYX_ERR(0, 48, __pyx_L1_error)
-
-  /* "pysigfish.pyx":49
- *         # sets up logging level/verbosity
- *         self.V = DEBUG
  *         self.logger = logging.getLogger(__name__)             # <<<<<<<<<<<<<<
- *         if self.V == 1:
+ *         if dev == 1:
  *             lev = logging.DEBUG
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_logging); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_logging); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_getLogger); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_getLogger); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -2423,54 +2469,54 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_logger, __pyx_t_1) < 0) __PYX_ERR(0, 49, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_GIVEREF(__pyx_t_1);
+  __Pyx_GOTREF(__pyx_v_self->logger);
+  __Pyx_DECREF(__pyx_v_self->logger);
+  __pyx_v_self->logger = __pyx_t_1;
+  __pyx_t_1 = 0;
 
-  /* "pysigfish.pyx":50
- *         self.V = DEBUG
+  /* "pysigfish.pyx":58
+ *         # sets up logging level/verbosity
  *         self.logger = logging.getLogger(__name__)
- *         if self.V == 1:             # <<<<<<<<<<<<<<
+ *         if dev == 1:             # <<<<<<<<<<<<<<
  *             lev = logging.DEBUG
  *         else:
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_V); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_dev, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 58, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 50, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 58, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 50, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_5) {
 
-    /* "pysigfish.pyx":51
+    /* "pysigfish.pyx":59
  *         self.logger = logging.getLogger(__name__)
- *         if self.V == 1:
+ *         if dev == 1:
  *             lev = logging.DEBUG             # <<<<<<<<<<<<<<
  *         else:
  *             lev = logging.WARNING
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_logging); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_DEBUG); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 51, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_logging); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_v_lev = __pyx_t_1;
-    __pyx_t_1 = 0;
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_DEBUG); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 59, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_lev = __pyx_t_3;
+    __pyx_t_3 = 0;
 
-    /* "pysigfish.pyx":50
- *         self.V = DEBUG
+    /* "pysigfish.pyx":58
+ *         # sets up logging level/verbosity
  *         self.logger = logging.getLogger(__name__)
- *         if self.V == 1:             # <<<<<<<<<<<<<<
+ *         if dev == 1:             # <<<<<<<<<<<<<<
  *             lev = logging.DEBUG
  *         else:
  */
     goto __pyx_L3;
   }
 
-  /* "pysigfish.pyx":53
+  /* "pysigfish.pyx":61
  *             lev = logging.DEBUG
  *         else:
  *             lev = logging.WARNING             # <<<<<<<<<<<<<<
@@ -2478,67 +2524,64 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  *         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',
  */
   /*else*/ {
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_logging); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 53, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_WARNING); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 53, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_logging); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 61, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_v_lev = __pyx_t_3;
-    __pyx_t_3 = 0;
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_WARNING); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_v_lev = __pyx_t_1;
+    __pyx_t_1 = 0;
   }
   __pyx_L3:;
 
-  /* "pysigfish.pyx":55
+  /* "pysigfish.pyx":63
  *             lev = logging.WARNING
  * 
  *         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',             # <<<<<<<<<<<<<<
  *                             datefmt='%d-%b-%y %H:%M:%S', level=lev)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_logging); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_basicConfig); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_logging); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_basicConfig); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_format, __pyx_kp_u_asctime_s_levelname_s_message_s) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_datefmt, __pyx_kp_u_d_b_y_H_M_S) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_format, __pyx_kp_u_asctime_s_levelname_s_message_s) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_datefmt, __pyx_kp_u_d_b_y_H_M_S) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
 
-  /* "pysigfish.pyx":56
+  /* "pysigfish.pyx":64
  * 
  *         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',
  *                             datefmt='%d-%b-%y %H:%M:%S', level=lev)             # <<<<<<<<<<<<<<
  * 
  *         self.logger.debug("initiating sigfish")
  */
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_level, __pyx_v_lev) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_level, __pyx_v_lev) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
 
-  /* "pysigfish.pyx":55
+  /* "pysigfish.pyx":63
  *             lev = logging.WARNING
  * 
  *         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',             # <<<<<<<<<<<<<<
  *                             datefmt='%d-%b-%y %H:%M:%S', level=lev)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":58
+  /* "pysigfish.pyx":66
  *                             datefmt='%d-%b-%y %H:%M:%S', level=lev)
  * 
  *         self.logger.debug("initiating sigfish")             # <<<<<<<<<<<<<<
  * 
  *         REF = str.encode(ref)
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_logger); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 58, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_debug); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 58, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
     __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
@@ -2551,19 +2594,19 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   }
   __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_kp_u_initiating_sigfish) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_kp_u_initiating_sigfish);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 58, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":60
+  /* "pysigfish.pyx":68
  *         self.logger.debug("initiating sigfish")
  * 
  *         REF = str.encode(ref)             # <<<<<<<<<<<<<<
  *         self.REF = strdup(REF)
- *         self.NUM_CHANNELS = channels
+ *         PAF = str.encode(paf)
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)(&PyUnicode_Type)), __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)(&PyUnicode_Type)), __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
@@ -2577,54 +2620,121 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   }
   __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_ref) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_ref);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_REF = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":61
+  /* "pysigfish.pyx":69
  * 
  *         REF = str.encode(ref)
  *         self.REF = strdup(REF)             # <<<<<<<<<<<<<<
- *         self.NUM_CHANNELS = channels
- *         self.NUM_THREADS = threads
+ *         PAF = str.encode(paf)
+ *         self.out_paf = strdup(PAF)
  */
-  __pyx_t_6 = __Pyx_PyObject_AsString(__pyx_v_REF); if (unlikely((!__pyx_t_6) && PyErr_Occurred())) __PYX_ERR(0, 61, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_AsString(__pyx_v_REF); if (unlikely((!__pyx_t_6) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L1_error)
   __pyx_v_self->REF = strdup(__pyx_t_6);
 
-  /* "pysigfish.pyx":62
+  /* "pysigfish.pyx":70
  *         REF = str.encode(ref)
  *         self.REF = strdup(REF)
+ *         PAF = str.encode(paf)             # <<<<<<<<<<<<<<
+ *         self.out_paf = strdup(PAF)
+ *         self.NUM_CHANNELS = channels
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)(&PyUnicode_Type)), __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_3, __pyx_v_paf) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_paf);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_PAF = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":71
+ *         self.REF = strdup(REF)
+ *         PAF = str.encode(paf)
+ *         self.out_paf = strdup(PAF)             # <<<<<<<<<<<<<<
+ *         self.NUM_CHANNELS = channels
+ *         self.NUM_THREADS = threads
+ */
+  __pyx_t_6 = __Pyx_PyObject_AsString(__pyx_v_PAF); if (unlikely((!__pyx_t_6) && PyErr_Occurred())) __PYX_ERR(0, 71, __pyx_L1_error)
+  __pyx_v_self->out_paf = strdup(__pyx_t_6);
+
+  /* "pysigfish.pyx":72
+ *         PAF = str.encode(paf)
+ *         self.out_paf = strdup(PAF)
  *         self.NUM_CHANNELS = channels             # <<<<<<<<<<<<<<
  *         self.NUM_THREADS = threads
- * 
+ *         '''
  */
-  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_channels); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_channels); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 72, __pyx_L1_error)
   __pyx_v_self->NUM_CHANNELS = __pyx_t_7;
 
-  /* "pysigfish.pyx":63
- *         self.REF = strdup(REF)
+  /* "pysigfish.pyx":73
+ *         self.out_paf = strdup(PAF)
  *         self.NUM_CHANNELS = channels
  *         self.NUM_THREADS = threads             # <<<<<<<<<<<<<<
- * 
- *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)
+ *         '''
+ *         int num_thread;
  */
-  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_threads); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyInt_As_int(__pyx_v_threads); if (unlikely((__pyx_t_7 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 73, __pyx_L1_error)
   __pyx_v_self->NUM_THREADS = __pyx_t_7;
 
-  /* "pysigfish.pyx":65
- *         self.NUM_THREADS = threads
- * 
- *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)             # <<<<<<<<<<<<<<
+  /* "pysigfish.pyx":79
+ * 		int8_t no_full_ref;
+ *         '''
+ *         self.opt.num_thread = self.NUM_THREADS             # <<<<<<<<<<<<<<
+ *         self.opt.debug_paf = self.out_paf
+ *         # self.opt.debug_paf = NULL
+ */
+  __pyx_t_7 = __pyx_v_self->NUM_THREADS;
+  __pyx_v_self->opt.num_thread = __pyx_t_7;
+
+  /* "pysigfish.pyx":80
+ *         '''
+ *         self.opt.num_thread = self.NUM_THREADS
+ *         self.opt.debug_paf = self.out_paf             # <<<<<<<<<<<<<<
+ *         # self.opt.debug_paf = NULL
+ *         self.opt.no_full_ref = self.no_full_ref
+ */
+  __pyx_t_8 = __pyx_v_self->out_paf;
+  __pyx_v_self->opt.debug_paf = __pyx_t_8;
+
+  /* "pysigfish.pyx":82
+ *         self.opt.debug_paf = self.out_paf
+ *         # self.opt.debug_paf = NULL
+ *         self.opt.no_full_ref = self.no_full_ref             # <<<<<<<<<<<<<<
+ *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
+ *         if self.state is NULL:
+ */
+  __pyx_t_9 = __pyx_v_self->no_full_ref;
+  __pyx_v_self->opt.no_full_ref = __pyx_t_9;
+
+  /* "pysigfish.pyx":83
+ *         # self.opt.debug_paf = NULL
+ *         self.opt.no_full_ref = self.no_full_ref
+ *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)             # <<<<<<<<<<<<<<
  *         if self.state is NULL:
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
  */
-  __pyx_v_self->state = init_sigfish(__pyx_v_self->REF, __pyx_v_self->NUM_CHANNELS, __pyx_v_self->NUM_THREADS);
+  __pyx_v_self->state = init_sigfish(__pyx_v_self->REF, __pyx_v_self->NUM_CHANNELS, __pyx_v_self->opt);
 
-  /* "pysigfish.pyx":66
- * 
- *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)
+  /* "pysigfish.pyx":84
+ *         self.opt.no_full_ref = self.no_full_ref
+ *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
  *         if self.state is NULL:             # <<<<<<<<<<<<<<
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
  * 
@@ -2632,63 +2742,60 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   __pyx_t_5 = ((__pyx_v_self->state == NULL) != 0);
   if (__pyx_t_5) {
 
-    /* "pysigfish.pyx":67
- *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)
+    /* "pysigfish.pyx":85
+ *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
  *         if self.state is NULL:
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))             # <<<<<<<<<<<<<<
  * 
  *         if self.state is NULL:
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_logger); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_error); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 85, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_error); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Ref_could_not_be_opened_and_sigf, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_u_Ref_could_not_be_opened_and_sigf, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_8 = NULL;
+    __pyx_t_10 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
-      __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_4);
-      if (likely(__pyx_t_8)) {
+      __pyx_t_10 = PyMethod_GET_SELF(__pyx_t_4);
+      if (likely(__pyx_t_10)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-        __Pyx_INCREF(__pyx_t_8);
+        __Pyx_INCREF(__pyx_t_10);
         __Pyx_INCREF(function);
         __Pyx_DECREF_SET(__pyx_t_4, function);
       }
     }
-    __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_8, __pyx_v_ref) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_ref);
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_3 = (__pyx_t_10) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_10, __pyx_v_ref) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_ref);
+    __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 85, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
       if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
         __Pyx_INCREF(__pyx_t_4);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_3, function);
+        __Pyx_DECREF_SET(__pyx_t_1, function);
       }
     }
-    __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1);
+    __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_3);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "pysigfish.pyx":66
- * 
- *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.NUM_THREADS)
+    /* "pysigfish.pyx":84
+ *         self.opt.no_full_ref = self.no_full_ref
+ *         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
  *         if self.state is NULL:             # <<<<<<<<<<<<<<
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
  * 
  */
   }
 
-  /* "pysigfish.pyx":69
+  /* "pysigfish.pyx":87
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
  * 
  *         if self.state is NULL:             # <<<<<<<<<<<<<<
@@ -2698,16 +2805,16 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   __pyx_t_5 = ((__pyx_v_self->state == NULL) != 0);
   if (unlikely(__pyx_t_5)) {
 
-    /* "pysigfish.pyx":70
+    /* "pysigfish.pyx":88
  * 
  *         if self.state is NULL:
  *             raise MemoryError()             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    PyErr_NoMemory(); __PYX_ERR(0, 70, __pyx_L1_error)
+    PyErr_NoMemory(); __PYX_ERR(0, 88, __pyx_L1_error)
 
-    /* "pysigfish.pyx":69
+    /* "pysigfish.pyx":87
  *             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
  * 
  *         if self.state is NULL:             # <<<<<<<<<<<<<<
@@ -2716,10 +2823,10 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
  */
   }
 
-  /* "pysigfish.pyx":34
+  /* "pysigfish.pyx":39
  * 
  * 
- *     def __cinit__(self, ref, channels=512, threads=8, DEBUG=0):             # <<<<<<<<<<<<<<
+ *     def __cinit__(self, ref, paf, channels=512, threads=8, dev=0):             # <<<<<<<<<<<<<<
  *         '''
  *         C init
  */
@@ -2732,21 +2839,22 @@ static int __pyx_pf_9pysigfish_5start___cinit__(struct __pyx_obj_9pysigfish_star
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_10);
   __Pyx_AddTraceback("pysigfish.start.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_lev);
   __Pyx_XDECREF(__pyx_v_REF);
+  __Pyx_XDECREF(__pyx_v_PAF);
   __Pyx_TraceReturn(Py_None, 0);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "pysigfish.pyx":74
+/* "pysigfish.pyx":92
  * 
  * 
- *     def __init__(self, ref, channels=512, threads=8, DEBUG=0):             # <<<<<<<<<<<<<<
+ *     def __init__(self, ref, paf, channels=512, threads=8, dev=0):             # <<<<<<<<<<<<<<
  *         '''
  *         python init
  */
@@ -2759,9 +2867,10 @@ struct wrapperbase __pyx_wrapperbase_9pysigfish_5start_2__init__;
 #endif
 static int __pyx_pw_9pysigfish_5start_3__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   CYTHON_UNUSED PyObject *__pyx_v_ref = 0;
+  CYTHON_UNUSED PyObject *__pyx_v_paf = 0;
   CYTHON_UNUSED PyObject *__pyx_v_channels = 0;
   CYTHON_UNUSED PyObject *__pyx_v_threads = 0;
-  CYTHON_UNUSED PyObject *__pyx_v_DEBUG = 0;
+  CYTHON_UNUSED PyObject *__pyx_v_dev = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -2769,15 +2878,17 @@ static int __pyx_pw_9pysigfish_5start_3__init__(PyObject *__pyx_v_self, PyObject
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_ref,&__pyx_n_s_channels,&__pyx_n_s_threads,&__pyx_n_s_DEBUG,0};
-    PyObject* values[4] = {0,0,0,0};
-    values[1] = ((PyObject *)__pyx_int_512);
-    values[2] = ((PyObject *)__pyx_int_8);
-    values[3] = ((PyObject *)__pyx_int_0);
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_ref,&__pyx_n_s_paf,&__pyx_n_s_channels,&__pyx_n_s_threads,&__pyx_n_s_dev,0};
+    PyObject* values[5] = {0,0,0,0,0};
+    values[2] = ((PyObject *)__pyx_int_512);
+    values[3] = ((PyObject *)__pyx_int_8);
+    values[4] = ((PyObject *)__pyx_int_0);
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
         case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
         CYTHON_FALLTHROUGH;
         case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
@@ -2796,60 +2907,68 @@ static int __pyx_pw_9pysigfish_5start_3__init__(PyObject *__pyx_v_self, PyObject
         else goto __pyx_L5_argtuple_error;
         CYTHON_FALLTHROUGH;
         case  1:
-        if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_channels);
-          if (value) { values[1] = value; kw_args--; }
+        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_paf)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("__init__", 0, 2, 5, 1); __PYX_ERR(0, 92, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_threads);
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_channels);
           if (value) { values[2] = value; kw_args--; }
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (kw_args > 0) {
-          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_DEBUG);
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_threads);
           if (value) { values[3] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  4:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_dev);
+          if (value) { values[4] = value; kw_args--; }
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 74, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__init__") < 0)) __PYX_ERR(0, 92, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
         case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
         CYTHON_FALLTHROUGH;
         case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
         CYTHON_FALLTHROUGH;
         case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        CYTHON_FALLTHROUGH;
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
         break;
         default: goto __pyx_L5_argtuple_error;
       }
     }
     __pyx_v_ref = values[0];
-    __pyx_v_channels = values[1];
-    __pyx_v_threads = values[2];
-    __pyx_v_DEBUG = values[3];
+    __pyx_v_paf = values[1];
+    __pyx_v_channels = values[2];
+    __pyx_v_threads = values[3];
+    __pyx_v_dev = values[4];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 74, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 92, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("pysigfish.start.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_9pysigfish_5start_2__init__(((struct __pyx_obj_9pysigfish_start *)__pyx_v_self), __pyx_v_ref, __pyx_v_channels, __pyx_v_threads, __pyx_v_DEBUG);
+  __pyx_r = __pyx_pf_9pysigfish_5start_2__init__(((struct __pyx_obj_9pysigfish_start *)__pyx_v_self), __pyx_v_ref, __pyx_v_paf, __pyx_v_channels, __pyx_v_threads, __pyx_v_dev);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9pysigfish_start *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_ref, CYTHON_UNUSED PyObject *__pyx_v_channels, CYTHON_UNUSED PyObject *__pyx_v_threads, CYTHON_UNUSED PyObject *__pyx_v_DEBUG) {
+static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9pysigfish_start *__pyx_v_self, CYTHON_UNUSED PyObject *__pyx_v_ref, CYTHON_UNUSED PyObject *__pyx_v_paf, CYTHON_UNUSED PyObject *__pyx_v_channels, CYTHON_UNUSED PyObject *__pyx_v_threads, CYTHON_UNUSED PyObject *__pyx_v_dev) {
   CYTHON_UNUSED PyObject *__pyx_v_somelist = NULL;
   int __pyx_r;
   __Pyx_TraceDeclarations
@@ -2859,24 +2978,24 @@ static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__init__", 0);
-  __Pyx_TraceCall("__init__", __pyx_f[0], 74, 0, __PYX_ERR(0, 74, __pyx_L1_error));
+  __Pyx_TraceCall("__init__", __pyx_f[0], 92, 0, __PYX_ERR(0, 92, __pyx_L1_error));
 
-  /* "pysigfish.pyx":78
+  /* "pysigfish.pyx":96
  *         python init
  *         '''
  *         somelist = []             # <<<<<<<<<<<<<<
  * 
  *     def __dealloc__(self):
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_somelist = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "pysigfish.pyx":74
+  /* "pysigfish.pyx":92
  * 
  * 
- *     def __init__(self, ref, channels=512, threads=8, DEBUG=0):             # <<<<<<<<<<<<<<
+ *     def __init__(self, ref, paf, channels=512, threads=8, dev=0):             # <<<<<<<<<<<<<<
  *         '''
  *         python init
  */
@@ -2895,7 +3014,7 @@ static int __pyx_pf_9pysigfish_5start_2__init__(CYTHON_UNUSED struct __pyx_obj_9
   return __pyx_r;
 }
 
-/* "pysigfish.pyx":80
+/* "pysigfish.pyx":98
  *         somelist = []
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2917,53 +3036,108 @@ static void __pyx_pw_9pysigfish_5start_5__dealloc__(PyObject *__pyx_v_self) {
 static void __pyx_pf_9pysigfish_5start_4__dealloc__(struct __pyx_obj_9pysigfish_start *__pyx_v_self) {
   __Pyx_TraceDeclarations
   __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__dealloc__", 0);
-  __Pyx_TraceCall("__dealloc__", __pyx_f[0], 80, 0, __PYX_ERR(0, 80, __pyx_L1_error));
+  __Pyx_TraceCall("__dealloc__", __pyx_f[0], 98, 0, __PYX_ERR(0, 98, __pyx_L1_error));
 
-  /* "pysigfish.pyx":84
- *         free memory
- *         '''
+  /* "pysigfish.pyx":105
+ *         #     free(self.out_paf)
+ *         # free(self.opt)
+ *         self.logger.debug("free state")             # <<<<<<<<<<<<<<
+ *         if self.state is not NULL:
+ *             free_sigfish(self.state)
+ */
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_kp_u_free_state) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_u_free_state);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "pysigfish.pyx":106
+ *         # free(self.opt)
+ *         self.logger.debug("free state")
  *         if self.state is not NULL:             # <<<<<<<<<<<<<<
  *             free_sigfish(self.state)
- * 
+ *         self.logger.debug("free REF")
  */
-  __pyx_t_1 = ((__pyx_v_self->state != NULL) != 0);
-  if (__pyx_t_1) {
+  __pyx_t_4 = ((__pyx_v_self->state != NULL) != 0);
+  if (__pyx_t_4) {
 
-    /* "pysigfish.pyx":85
- *         '''
+    /* "pysigfish.pyx":107
+ *         self.logger.debug("free state")
  *         if self.state is not NULL:
  *             free_sigfish(self.state)             # <<<<<<<<<<<<<<
- * 
+ *         self.logger.debug("free REF")
  *         if self.REF is not NULL:
  */
     free_sigfish(__pyx_v_self->state);
 
-    /* "pysigfish.pyx":84
- *         free memory
- *         '''
+    /* "pysigfish.pyx":106
+ *         # free(self.opt)
+ *         self.logger.debug("free state")
  *         if self.state is not NULL:             # <<<<<<<<<<<<<<
  *             free_sigfish(self.state)
- * 
+ *         self.logger.debug("free REF")
  */
   }
 
-  /* "pysigfish.pyx":87
+  /* "pysigfish.pyx":108
+ *         if self.state is not NULL:
  *             free_sigfish(self.state)
- * 
+ *         self.logger.debug("free REF")             # <<<<<<<<<<<<<<
+ *         if self.REF is not NULL:
+ *             free(self.REF)
+ */
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_kp_u_free_REF) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_u_free_REF);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "pysigfish.pyx":109
+ *             free_sigfish(self.state)
+ *         self.logger.debug("free REF")
  *         if self.REF is not NULL:             # <<<<<<<<<<<<<<
  *             free(self.REF)
  * 
  */
-  __pyx_t_1 = ((__pyx_v_self->REF != NULL) != 0);
-  if (__pyx_t_1) {
+  __pyx_t_4 = ((__pyx_v_self->REF != NULL) != 0);
+  if (__pyx_t_4) {
 
-    /* "pysigfish.pyx":88
- * 
+    /* "pysigfish.pyx":110
+ *         self.logger.debug("free REF")
  *         if self.REF is not NULL:
  *             free(self.REF)             # <<<<<<<<<<<<<<
  * 
@@ -2971,16 +3145,16 @@ static void __pyx_pf_9pysigfish_5start_4__dealloc__(struct __pyx_obj_9pysigfish_
  */
     free(__pyx_v_self->REF);
 
-    /* "pysigfish.pyx":87
+    /* "pysigfish.pyx":109
  *             free_sigfish(self.state)
- * 
+ *         self.logger.debug("free REF")
  *         if self.REF is not NULL:             # <<<<<<<<<<<<<<
  *             free(self.REF)
  * 
  */
   }
 
-  /* "pysigfish.pyx":80
+  /* "pysigfish.pyx":98
  *         somelist = []
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -2991,13 +3165,16 @@ static void __pyx_pf_9pysigfish_5start_4__dealloc__(struct __pyx_obj_9pysigfish_
   /* function exit code */
   goto __pyx_L0;
   __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
   __Pyx_WriteUnraisable("pysigfish.start.__dealloc__", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_L0:;
   __Pyx_TraceReturn(Py_None, 0);
   __Pyx_RefNannyFinishContext();
 }
 
-/* "pysigfish.pyx":91
+/* "pysigfish.pyx":114
  * 
  * 
  *     def process_batch(self, batch, signal_dtype):             # <<<<<<<<<<<<<<
@@ -3040,11 +3217,11 @@ static PyObject *__pyx_pw_9pysigfish_5start_7process_batch(PyObject *__pyx_v_sel
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_signal_dtype)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("process_batch", 1, 2, 2, 1); __PYX_ERR(0, 91, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("process_batch", 1, 2, 2, 1); __PYX_ERR(0, 114, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process_batch") < 0)) __PYX_ERR(0, 91, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "process_batch") < 0)) __PYX_ERR(0, 114, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -3057,7 +3234,7 @@ static PyObject *__pyx_pw_9pysigfish_5start_7process_batch(PyObject *__pyx_v_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("process_batch", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 91, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("process_batch", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 114, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("pysigfish.start.process_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -3074,679 +3251,921 @@ static PyObject *__pyx_pf_9pysigfish_5start_6process_batch(struct __pyx_obj_9pys
   PyObject *__pyx_v_idx = NULL;
   PyObject *__pyx_v_channel = NULL;
   PyObject *__pyx_v_read = NULL;
+  PyObject *__pyx_v_rid = NULL;
   PyObject *__pyx_v_sig = NULL;
   PyObject *__pyx_v_memview = NULL;
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_v_status_dic = NULL;
-  CYTHON_UNUSED uint64_t __pyx_v_j;
   PyObject *__pyx_r = NULL;
   __Pyx_TraceDeclarations
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  PyObject *(*__pyx_t_4)(PyObject *);
+  PyObject *(*__pyx_t_3)(PyObject *);
+  PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
   PyObject *__pyx_t_7 = NULL;
-  PyObject *__pyx_t_8 = NULL;
-  PyObject *(*__pyx_t_9)(PyObject *);
-  int32_t __pyx_t_10;
-  Py_ssize_t __pyx_t_11;
-  uint64_t __pyx_t_12;
-  size_t __pyx_t_13;
-  int __pyx_t_14;
-  PyObject *(*__pyx_t_15)(PyObject *);
-  float __pyx_t_16;
-  Py_ssize_t __pyx_t_17;
-  Py_ssize_t __pyx_t_18;
-  uint64_t __pyx_t_19;
-  uint64_t __pyx_t_20;
+  PyObject *(*__pyx_t_8)(PyObject *);
+  int32_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  char const *__pyx_t_11;
+  char *__pyx_t_12;
+  uint64_t __pyx_t_13;
+  size_t __pyx_t_14;
+  int __pyx_t_15;
+  PyObject *__pyx_t_16 = NULL;
+  PyObject *(*__pyx_t_17)(PyObject *);
+  float __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("process_batch", 0);
-  __Pyx_TraceCall("process_batch", __pyx_f[0], 91, 0, __PYX_ERR(0, 91, __pyx_L1_error));
+  __Pyx_TraceCall("process_batch", __pyx_f[0], 114, 0, __PYX_ERR(0, 114, __pyx_L1_error));
 
-  /* "pysigfish.pyx":110
- *         raw_data = numpy.fromstring(read.raw_data, dtype)
+  /* "pysigfish.pyx":134
  *         '''
+ *         # self.logger.debug("allocating sbatch memory")
  *         self.batch_len = len(batch)             # <<<<<<<<<<<<<<
  *         self.sbatch = <sigfish_read_t *> malloc(sizeof(sigfish_read_t)*self.batch_len)
- * 
+ *         # self.logger.debug("batch data:")
  */
-  __pyx_t_1 = PyObject_Length(__pyx_v_batch); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 110, __pyx_L1_error)
+  __pyx_t_1 = PyObject_Length(__pyx_v_batch); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 134, __pyx_L1_error)
   __pyx_v_self->batch_len = __pyx_t_1;
 
-  /* "pysigfish.pyx":111
- *         '''
+  /* "pysigfish.pyx":135
+ *         # self.logger.debug("allocating sbatch memory")
  *         self.batch_len = len(batch)
  *         self.sbatch = <sigfish_read_t *> malloc(sizeof(sigfish_read_t)*self.batch_len)             # <<<<<<<<<<<<<<
- * 
- *         for idx, channel, read in enumerate(batch):
+ *         # self.logger.debug("batch data:")
+ *         # for channel, read in batch:
  */
   __pyx_v_self->sbatch = ((sigfish_read_t *)malloc(((sizeof(sigfish_read_t)) * __pyx_v_self->batch_len)));
 
-  /* "pysigfish.pyx":113
- *         self.sbatch = <sigfish_read_t *> malloc(sizeof(sigfish_read_t)*self.batch_len)
+  /* "pysigfish.pyx":142
  * 
- *         for idx, channel, read in enumerate(batch):             # <<<<<<<<<<<<<<
+ *         # self.logger.debug("starting build sbatch for loop")
+ *         idx = 0             # <<<<<<<<<<<<<<
+ *         for channel, read in batch:
  *             self.sbatch[idx].read_number = read.number
- *             self.sbatch[idx].channel = channel
  */
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_enumerate, __pyx_v_batch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (likely(PyList_CheckExact(__pyx_t_2)) || PyTuple_CheckExact(__pyx_t_2)) {
-    __pyx_t_3 = __pyx_t_2; __Pyx_INCREF(__pyx_t_3); __pyx_t_1 = 0;
-    __pyx_t_4 = NULL;
+  __Pyx_INCREF(__pyx_int_0);
+  __pyx_v_idx = __pyx_int_0;
+
+  /* "pysigfish.pyx":143
+ *         # self.logger.debug("starting build sbatch for loop")
+ *         idx = 0
+ *         for channel, read in batch:             # <<<<<<<<<<<<<<
+ *             self.sbatch[idx].read_number = read.number
+ *             rid = str.encode(read.id)
+ */
+  if (likely(PyList_CheckExact(__pyx_v_batch)) || PyTuple_CheckExact(__pyx_v_batch)) {
+    __pyx_t_2 = __pyx_v_batch; __Pyx_INCREF(__pyx_t_2); __pyx_t_1 = 0;
+    __pyx_t_3 = NULL;
   } else {
-    __pyx_t_1 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 113, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 113, __pyx_L1_error)
+    __pyx_t_1 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_batch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_3 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 143, __pyx_L1_error)
   }
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   for (;;) {
-    if (likely(!__pyx_t_4)) {
-      if (likely(PyList_CheckExact(__pyx_t_3))) {
-        if (__pyx_t_1 >= PyList_GET_SIZE(__pyx_t_3)) break;
+    if (likely(!__pyx_t_3)) {
+      if (likely(PyList_CheckExact(__pyx_t_2))) {
+        if (__pyx_t_1 >= PyList_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_1); __Pyx_INCREF(__pyx_t_2); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_4); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 143, __pyx_L1_error)
         #else
-        __pyx_t_2 = PySequence_ITEM(__pyx_t_3, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_2);
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 143, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
         #endif
       } else {
-        if (__pyx_t_1 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
+        if (__pyx_t_1 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_2 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_1); __Pyx_INCREF(__pyx_t_2); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_4); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 143, __pyx_L1_error)
         #else
-        __pyx_t_2 = PySequence_ITEM(__pyx_t_3, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_2);
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 143, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
         #endif
       }
     } else {
-      __pyx_t_2 = __pyx_t_4(__pyx_t_3);
-      if (unlikely(!__pyx_t_2)) {
+      __pyx_t_4 = __pyx_t_3(__pyx_t_2);
+      if (unlikely(!__pyx_t_4)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 113, __pyx_L1_error)
+          else __PYX_ERR(0, 143, __pyx_L1_error)
         }
         break;
       }
-      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_GOTREF(__pyx_t_4);
     }
-    if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
-      PyObject* sequence = __pyx_t_2;
+    if ((likely(PyTuple_CheckExact(__pyx_t_4))) || (PyList_CheckExact(__pyx_t_4))) {
+      PyObject* sequence = __pyx_t_4;
       Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
-      if (unlikely(size != 3)) {
-        if (size > 3) __Pyx_RaiseTooManyValuesError(3);
+      if (unlikely(size != 2)) {
+        if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(0, 113, __pyx_L1_error)
+        __PYX_ERR(0, 143, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
         __pyx_t_5 = PyTuple_GET_ITEM(sequence, 0); 
         __pyx_t_6 = PyTuple_GET_ITEM(sequence, 1); 
-        __pyx_t_7 = PyTuple_GET_ITEM(sequence, 2); 
       } else {
         __pyx_t_5 = PyList_GET_ITEM(sequence, 0); 
         __pyx_t_6 = PyList_GET_ITEM(sequence, 1); 
-        __pyx_t_7 = PyList_GET_ITEM(sequence, 2); 
       }
       __Pyx_INCREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_t_6);
-      __Pyx_INCREF(__pyx_t_7);
       #else
-      __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 113, __pyx_L1_error)
+      __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 143, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 113, __pyx_L1_error)
+      __pyx_t_6 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 143, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_7 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 113, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
       #endif
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_8 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 113, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_9 = Py_TYPE(__pyx_t_8)->tp_iternext;
-      index = 0; __pyx_t_5 = __pyx_t_9(__pyx_t_8); if (unlikely(!__pyx_t_5)) goto __pyx_L5_unpacking_failed;
-      __Pyx_GOTREF(__pyx_t_5);
-      index = 1; __pyx_t_6 = __pyx_t_9(__pyx_t_8); if (unlikely(!__pyx_t_6)) goto __pyx_L5_unpacking_failed;
-      __Pyx_GOTREF(__pyx_t_6);
-      index = 2; __pyx_t_7 = __pyx_t_9(__pyx_t_8); if (unlikely(!__pyx_t_7)) goto __pyx_L5_unpacking_failed;
+      __pyx_t_7 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 143, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_8), 3) < 0) __PYX_ERR(0, 113, __pyx_L1_error)
-      __pyx_t_9 = NULL;
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_8 = Py_TYPE(__pyx_t_7)->tp_iternext;
+      index = 0; __pyx_t_5 = __pyx_t_8(__pyx_t_7); if (unlikely(!__pyx_t_5)) goto __pyx_L5_unpacking_failed;
+      __Pyx_GOTREF(__pyx_t_5);
+      index = 1; __pyx_t_6 = __pyx_t_8(__pyx_t_7); if (unlikely(!__pyx_t_6)) goto __pyx_L5_unpacking_failed;
+      __Pyx_GOTREF(__pyx_t_6);
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_8(__pyx_t_7), 2) < 0) __PYX_ERR(0, 143, __pyx_L1_error)
+      __pyx_t_8 = NULL;
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       goto __pyx_L6_unpacking_done;
       __pyx_L5_unpacking_failed:;
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_9 = NULL;
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __pyx_t_8 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(0, 113, __pyx_L1_error)
+      __PYX_ERR(0, 143, __pyx_L1_error)
       __pyx_L6_unpacking_done:;
     }
-    __Pyx_XDECREF_SET(__pyx_v_idx, __pyx_t_5);
+    __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_5);
     __pyx_t_5 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_6);
+    __Pyx_XDECREF_SET(__pyx_v_read, __pyx_t_6);
     __pyx_t_6 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_read, __pyx_t_7);
-    __pyx_t_7 = 0;
 
-    /* "pysigfish.pyx":114
- * 
- *         for idx, channel, read in enumerate(batch):
+    /* "pysigfish.pyx":144
+ *         idx = 0
+ *         for channel, read in batch:
  *             self.sbatch[idx].read_number = read.number             # <<<<<<<<<<<<<<
+ *             rid = str.encode(read.id)
+ *             self.rid = strdup(rid)
+ */
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_number); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_9 = __Pyx_PyInt_As_int32_t(__pyx_t_4); if (unlikely((__pyx_t_9 == ((int32_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 144, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 144, __pyx_L1_error)
+    (__pyx_v_self->sbatch[__pyx_t_10]).read_number = __pyx_t_9;
+
+    /* "pysigfish.pyx":145
+ *         for channel, read in batch:
+ *             self.sbatch[idx].read_number = read.number
+ *             rid = str.encode(read.id)             # <<<<<<<<<<<<<<
+ *             self.rid = strdup(rid)
+ *             self.sbatch[idx].read_id = self.rid
+ */
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(((PyObject *)(&PyUnicode_Type)), __pyx_n_s_encode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_7 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_6);
+      if (likely(__pyx_t_7)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+        __Pyx_INCREF(__pyx_t_7);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_6, function);
+      }
+    }
+    __pyx_t_4 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_7, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_5);
+    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_rid, __pyx_t_4);
+    __pyx_t_4 = 0;
+
+    /* "pysigfish.pyx":146
+ *             self.sbatch[idx].read_number = read.number
+ *             rid = str.encode(read.id)
+ *             self.rid = strdup(rid)             # <<<<<<<<<<<<<<
+ *             self.sbatch[idx].read_id = self.rid
+ *             self.sbatch[idx].channel = channel
+ */
+    __pyx_t_11 = __Pyx_PyObject_AsString(__pyx_v_rid); if (unlikely((!__pyx_t_11) && PyErr_Occurred())) __PYX_ERR(0, 146, __pyx_L1_error)
+    __pyx_v_self->rid = strdup(__pyx_t_11);
+
+    /* "pysigfish.pyx":147
+ *             rid = str.encode(read.id)
+ *             self.rid = strdup(rid)
+ *             self.sbatch[idx].read_id = self.rid             # <<<<<<<<<<<<<<
  *             self.sbatch[idx].channel = channel
  *             self.sbatch[idx].len_raw_signal = read.chunk_length
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 114, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_10 = __Pyx_PyInt_As_int32_t(__pyx_t_2); if (unlikely((__pyx_t_10 == ((int32_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 114, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 114, __pyx_L1_error)
-    (__pyx_v_self->sbatch[__pyx_t_11]).read_number = __pyx_t_10;
+    __pyx_t_12 = __pyx_v_self->rid;
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 147, __pyx_L1_error)
+    (__pyx_v_self->sbatch[__pyx_t_10]).read_id = __pyx_t_12;
 
-    /* "pysigfish.pyx":115
- *         for idx, channel, read in enumerate(batch):
- *             self.sbatch[idx].read_number = read.number
+    /* "pysigfish.pyx":148
+ *             self.rid = strdup(rid)
+ *             self.sbatch[idx].read_id = self.rid
  *             self.sbatch[idx].channel = channel             # <<<<<<<<<<<<<<
  *             self.sbatch[idx].len_raw_signal = read.chunk_length
  *             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)
  */
-    __pyx_t_10 = __Pyx_PyInt_As_int32_t(__pyx_v_channel); if (unlikely((__pyx_t_10 == ((int32_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 115, __pyx_L1_error)
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 115, __pyx_L1_error)
-    (__pyx_v_self->sbatch[__pyx_t_11]).channel = __pyx_t_10;
+    __pyx_t_9 = __Pyx_PyInt_As_int32_t(__pyx_v_channel); if (unlikely((__pyx_t_9 == ((int32_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
+    (__pyx_v_self->sbatch[__pyx_t_10]).channel = __pyx_t_9;
 
-    /* "pysigfish.pyx":116
- *             self.sbatch[idx].read_number = read.number
+    /* "pysigfish.pyx":149
+ *             self.sbatch[idx].read_id = self.rid
  *             self.sbatch[idx].channel = channel
  *             self.sbatch[idx].len_raw_signal = read.chunk_length             # <<<<<<<<<<<<<<
  *             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)
  *             sig = np.fromstring(read.raw_data, signal_dtype)
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 116, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_12 = __Pyx_PyInt_As_uint64_t(__pyx_t_2); if (unlikely((__pyx_t_12 == ((uint64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 116, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 116, __pyx_L1_error)
-    (__pyx_v_self->sbatch[__pyx_t_11]).len_raw_signal = __pyx_t_12;
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_13 = __Pyx_PyInt_As_uint64_t(__pyx_t_4); if (unlikely((__pyx_t_13 == ((uint64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 149, __pyx_L1_error)
+    (__pyx_v_self->sbatch[__pyx_t_10]).len_raw_signal = __pyx_t_13;
 
-    /* "pysigfish.pyx":117
+    /* "pysigfish.pyx":150
  *             self.sbatch[idx].channel = channel
  *             self.sbatch[idx].len_raw_signal = read.chunk_length
  *             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)             # <<<<<<<<<<<<<<
  *             sig = np.fromstring(read.raw_data, signal_dtype)
  *             memview = memoryview(sig)
  */
-    __pyx_t_2 = __Pyx_PyInt_FromSize_t((sizeof(float))); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_FromSize_t((sizeof(float))); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 150, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 150, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_13 = __Pyx_PyInt_As_size_t(__pyx_t_6); if (unlikely((__pyx_t_13 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Multiply(__pyx_t_4, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 150, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 117, __pyx_L1_error)
-    (__pyx_v_self->sbatch[__pyx_t_11]).raw_signal = ((float *)malloc(__pyx_t_13));
+    __pyx_t_14 = __Pyx_PyInt_As_size_t(__pyx_t_5); if (unlikely((__pyx_t_14 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 150, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 150, __pyx_L1_error)
+    (__pyx_v_self->sbatch[__pyx_t_10]).raw_signal = ((float *)malloc(__pyx_t_14));
 
-    /* "pysigfish.pyx":118
+    /* "pysigfish.pyx":151
  *             self.sbatch[idx].len_raw_signal = read.chunk_length
  *             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)
  *             sig = np.fromstring(read.raw_data, signal_dtype)             # <<<<<<<<<<<<<<
  *             memview = memoryview(sig)
  *             for i in range(read.chunk_length):
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 118, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_fromstring); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_raw_data); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 118, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_5 = NULL;
-    __pyx_t_14 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
-      if (likely(__pyx_t_5)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-        __Pyx_INCREF(__pyx_t_5);
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 151, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_fromstring); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 151, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_raw_data); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 151, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_7 = NULL;
+    __pyx_t_15 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_4);
+      if (likely(__pyx_t_7)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+        __Pyx_INCREF(__pyx_t_7);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_2, function);
-        __pyx_t_14 = 1;
+        __Pyx_DECREF_SET(__pyx_t_4, function);
+        __pyx_t_15 = 1;
       }
     }
     #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_2)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_7, __pyx_v_signal_dtype};
-      __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_14, 2+__pyx_t_14); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    if (PyFunction_Check(__pyx_t_4)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_t_6, __pyx_v_signal_dtype};
+      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 151, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-      PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_7, __pyx_v_signal_dtype};
-      __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_14, 2+__pyx_t_14); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_t_6, __pyx_v_signal_dtype};
+      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 151, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     } else
     #endif
     {
-      __pyx_t_8 = PyTuple_New(2+__pyx_t_14); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 118, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      if (__pyx_t_5) {
-        __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_5); __pyx_t_5 = NULL;
+      __pyx_t_16 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 151, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_16);
+      if (__pyx_t_7) {
+        __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_7); __pyx_t_7 = NULL;
       }
-      __Pyx_GIVEREF(__pyx_t_7);
-      PyTuple_SET_ITEM(__pyx_t_8, 0+__pyx_t_14, __pyx_t_7);
+      __Pyx_GIVEREF(__pyx_t_6);
+      PyTuple_SET_ITEM(__pyx_t_16, 0+__pyx_t_15, __pyx_t_6);
       __Pyx_INCREF(__pyx_v_signal_dtype);
       __Pyx_GIVEREF(__pyx_v_signal_dtype);
-      PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_14, __pyx_v_signal_dtype);
-      __pyx_t_7 = 0;
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_8, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 118, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      PyTuple_SET_ITEM(__pyx_t_16, 1+__pyx_t_15, __pyx_v_signal_dtype);
+      __pyx_t_6 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_16, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 151, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     }
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_sig, __pyx_t_6);
-    __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_sig, __pyx_t_5);
+    __pyx_t_5 = 0;
 
-    /* "pysigfish.pyx":119
+    /* "pysigfish.pyx":152
  *             self.sbatch[idx].raw_signal = <float *> malloc(sizeof(float)*read.chunk_length)
  *             sig = np.fromstring(read.raw_data, signal_dtype)
  *             memview = memoryview(sig)             # <<<<<<<<<<<<<<
  *             for i in range(read.chunk_length):
  *                 self.sbatch[idx].raw_signal[i] = memview[i]
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_memoryview); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 119, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_v_sig); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 119, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_memview, __pyx_t_2);
-    __pyx_t_2 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_memoryview); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 152, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_sig); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 152, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_memview, __pyx_t_4);
+    __pyx_t_4 = 0;
 
-    /* "pysigfish.pyx":120
+    /* "pysigfish.pyx":153
  *             sig = np.fromstring(read.raw_data, signal_dtype)
  *             memview = memoryview(sig)
  *             for i in range(read.chunk_length):             # <<<<<<<<<<<<<<
  *                 self.sbatch[idx].raw_signal[i] = memview[i]
- * 
+ *             idx += 1
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_6 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 120, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
-      __pyx_t_2 = __pyx_t_6; __Pyx_INCREF(__pyx_t_2); __pyx_t_11 = 0;
-      __pyx_t_15 = NULL;
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_chunk_length); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
+      __pyx_t_4 = __pyx_t_5; __Pyx_INCREF(__pyx_t_4); __pyx_t_10 = 0;
+      __pyx_t_17 = NULL;
     } else {
-      __pyx_t_11 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_15 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 120, __pyx_L1_error)
+      __pyx_t_10 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 153, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_17 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 153, __pyx_L1_error)
     }
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     for (;;) {
-      if (likely(!__pyx_t_15)) {
-        if (likely(PyList_CheckExact(__pyx_t_2))) {
-          if (__pyx_t_11 >= PyList_GET_SIZE(__pyx_t_2)) break;
+      if (likely(!__pyx_t_17)) {
+        if (likely(PyList_CheckExact(__pyx_t_4))) {
+          if (__pyx_t_10 >= PyList_GET_SIZE(__pyx_t_4)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_6 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(0, 120, __pyx_L1_error)
+          __pyx_t_5 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 153, __pyx_L1_error)
           #else
-          __pyx_t_6 = PySequence_ITEM(__pyx_t_2, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 120, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_6);
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 153, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
           #endif
         } else {
-          if (__pyx_t_11 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
+          if (__pyx_t_10 >= PyTuple_GET_SIZE(__pyx_t_4)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(0, 120, __pyx_L1_error)
+          __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 153, __pyx_L1_error)
           #else
-          __pyx_t_6 = PySequence_ITEM(__pyx_t_2, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 120, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_6);
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 153, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
           #endif
         }
       } else {
-        __pyx_t_6 = __pyx_t_15(__pyx_t_2);
-        if (unlikely(!__pyx_t_6)) {
+        __pyx_t_5 = __pyx_t_17(__pyx_t_4);
+        if (unlikely(!__pyx_t_5)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 120, __pyx_L1_error)
+            else __PYX_ERR(0, 153, __pyx_L1_error)
           }
           break;
         }
-        __Pyx_GOTREF(__pyx_t_6);
+        __Pyx_GOTREF(__pyx_t_5);
       }
-      __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_6);
-      __pyx_t_6 = 0;
+      __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_5);
+      __pyx_t_5 = 0;
 
-      /* "pysigfish.pyx":121
+      /* "pysigfish.pyx":154
  *             memview = memoryview(sig)
  *             for i in range(read.chunk_length):
  *                 self.sbatch[idx].raw_signal[i] = memview[i]             # <<<<<<<<<<<<<<
+ *             idx += 1
  * 
- *         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
  */
-      __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_memview, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 121, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_16 = __pyx_PyFloat_AsFloat(__pyx_t_6); if (unlikely((__pyx_t_16 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_17 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_17 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
-      __pyx_t_18 = __Pyx_PyIndex_AsSsize_t(__pyx_v_i); if (unlikely((__pyx_t_18 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 121, __pyx_L1_error)
-      ((__pyx_v_self->sbatch[__pyx_t_17]).raw_signal[__pyx_t_18]) = __pyx_t_16;
+      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_memview, __pyx_v_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 154, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_18 = __pyx_PyFloat_AsFloat(__pyx_t_5); if (unlikely((__pyx_t_18 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 154, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_19 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_19 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 154, __pyx_L1_error)
+      __pyx_t_20 = __Pyx_PyIndex_AsSsize_t(__pyx_v_i); if (unlikely((__pyx_t_20 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 154, __pyx_L1_error)
+      ((__pyx_v_self->sbatch[__pyx_t_19]).raw_signal[__pyx_t_20]) = __pyx_t_18;
 
-      /* "pysigfish.pyx":120
+      /* "pysigfish.pyx":153
  *             sig = np.fromstring(read.raw_data, signal_dtype)
  *             memview = memoryview(sig)
  *             for i in range(read.chunk_length):             # <<<<<<<<<<<<<<
  *                 self.sbatch[idx].raw_signal[i] = memview[i]
- * 
+ *             idx += 1
  */
     }
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "pysigfish.pyx":113
- *         self.sbatch = <sigfish_read_t *> malloc(sizeof(sigfish_read_t)*self.batch_len)
+    /* "pysigfish.pyx":155
+ *             for i in range(read.chunk_length):
+ *                 self.sbatch[idx].raw_signal[i] = memview[i]
+ *             idx += 1             # <<<<<<<<<<<<<<
  * 
- *         for idx, channel, read in enumerate(batch):             # <<<<<<<<<<<<<<
+ *         self.logger.debug("calling process_sigfish")
+ */
+    __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_idx, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 155, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF_SET(__pyx_v_idx, __pyx_t_4);
+    __pyx_t_4 = 0;
+
+    /* "pysigfish.pyx":143
+ *         # self.logger.debug("starting build sbatch for loop")
+ *         idx = 0
+ *         for channel, read in batch:             # <<<<<<<<<<<<<<
  *             self.sbatch[idx].read_number = read.number
- *             self.sbatch[idx].channel = channel
+ *             rid = str.encode(read.id)
  */
   }
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":123
- *                 self.sbatch[idx].raw_signal[i] = memview[i]
+  /* "pysigfish.pyx":157
+ *             idx += 1
  * 
+ *         self.logger.debug("calling process_sigfish")             # <<<<<<<<<<<<<<
+ *         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
+ *         self.logger.debug("process_sigfish done")
+ */
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_4, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_kp_u_calling_process_sigfish) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_kp_u_calling_process_sigfish);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 157, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":158
+ * 
+ *         self.logger.debug("calling process_sigfish")
  *         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)             # <<<<<<<<<<<<<<
+ *         self.logger.debug("process_sigfish done")
  * 
- *         status_dic = {}
  */
   __pyx_v_self->status = process_sigfish(__pyx_v_self->state, __pyx_v_self->sbatch, __pyx_v_self->batch_len);
 
-  /* "pysigfish.pyx":125
+  /* "pysigfish.pyx":159
+ *         self.logger.debug("calling process_sigfish")
  *         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
+ *         self.logger.debug("process_sigfish done")             # <<<<<<<<<<<<<<
  * 
- *         status_dic = {}             # <<<<<<<<<<<<<<
- *         for idx, channel, read in enumerate(batch):
- *             status_dic[channel] = (read.channel, read.number, read.id, self.status[idx])
+ *         self.logger.debug("building return")
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_v_status_dic = ((PyObject*)__pyx_t_3);
-  __pyx_t_3 = 0;
-
-  /* "pysigfish.pyx":126
- * 
- *         status_dic = {}
- *         for idx, channel, read in enumerate(batch):             # <<<<<<<<<<<<<<
- *             status_dic[channel] = (read.channel, read.number, read.id, self.status[idx])
- * 
- */
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_enumerate, __pyx_v_batch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
-    __pyx_t_2 = __pyx_t_3; __Pyx_INCREF(__pyx_t_2); __pyx_t_1 = 0;
-    __pyx_t_4 = NULL;
-  } else {
-    __pyx_t_1 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 126, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_4, function);
+    }
   }
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_kp_u_process_sigfish_done) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_kp_u_process_sigfish_done);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":161
+ *         self.logger.debug("process_sigfish done")
+ * 
+ *         self.logger.debug("building return")             # <<<<<<<<<<<<<<
+ *         status_dic = {}
+ *         idx = 0
+ */
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 161, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_4, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_kp_u_building_return) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_kp_u_building_return);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 161, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":162
+ * 
+ *         self.logger.debug("building return")
+ *         status_dic = {}             # <<<<<<<<<<<<<<
+ *         idx = 0
+ *         for channel, read in batch:
+ */
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 162, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_v_status_dic = ((PyObject*)__pyx_t_2);
+  __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":163
+ *         self.logger.debug("building return")
+ *         status_dic = {}
+ *         idx = 0             # <<<<<<<<<<<<<<
+ *         for channel, read in batch:
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+ */
+  __Pyx_INCREF(__pyx_int_0);
+  __Pyx_DECREF_SET(__pyx_v_idx, __pyx_int_0);
+
+  /* "pysigfish.pyx":164
+ *         status_dic = {}
+ *         idx = 0
+ *         for channel, read in batch:             # <<<<<<<<<<<<<<
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+ *             idx += 1
+ */
+  if (likely(PyList_CheckExact(__pyx_v_batch)) || PyTuple_CheckExact(__pyx_v_batch)) {
+    __pyx_t_2 = __pyx_v_batch; __Pyx_INCREF(__pyx_t_2); __pyx_t_1 = 0;
+    __pyx_t_3 = NULL;
+  } else {
+    __pyx_t_1 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_batch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 164, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_3 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 164, __pyx_L1_error)
+  }
   for (;;) {
-    if (likely(!__pyx_t_4)) {
+    if (likely(!__pyx_t_3)) {
       if (likely(PyList_CheckExact(__pyx_t_2))) {
         if (__pyx_t_1 >= PyList_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_3); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 126, __pyx_L1_error)
+        __pyx_t_4 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_4); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 164, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
         #endif
       } else {
         if (__pyx_t_1 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_3); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 126, __pyx_L1_error)
+        __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_4); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 164, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
+        __pyx_t_4 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
         #endif
       }
     } else {
-      __pyx_t_3 = __pyx_t_4(__pyx_t_2);
-      if (unlikely(!__pyx_t_3)) {
+      __pyx_t_4 = __pyx_t_3(__pyx_t_2);
+      if (unlikely(!__pyx_t_4)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 126, __pyx_L1_error)
+          else __PYX_ERR(0, 164, __pyx_L1_error)
         }
         break;
       }
-      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_GOTREF(__pyx_t_4);
     }
-    if ((likely(PyTuple_CheckExact(__pyx_t_3))) || (PyList_CheckExact(__pyx_t_3))) {
-      PyObject* sequence = __pyx_t_3;
+    if ((likely(PyTuple_CheckExact(__pyx_t_4))) || (PyList_CheckExact(__pyx_t_4))) {
+      PyObject* sequence = __pyx_t_4;
       Py_ssize_t size = __Pyx_PySequence_SIZE(sequence);
-      if (unlikely(size != 3)) {
-        if (size > 3) __Pyx_RaiseTooManyValuesError(3);
+      if (unlikely(size != 2)) {
+        if (size > 2) __Pyx_RaiseTooManyValuesError(2);
         else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-        __PYX_ERR(0, 126, __pyx_L1_error)
+        __PYX_ERR(0, 164, __pyx_L1_error)
       }
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_6 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_8 = PyTuple_GET_ITEM(sequence, 1); 
-        __pyx_t_7 = PyTuple_GET_ITEM(sequence, 2); 
+        __pyx_t_5 = PyTuple_GET_ITEM(sequence, 0); 
+        __pyx_t_16 = PyTuple_GET_ITEM(sequence, 1); 
       } else {
-        __pyx_t_6 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_8 = PyList_GET_ITEM(sequence, 1); 
-        __pyx_t_7 = PyList_GET_ITEM(sequence, 2); 
+        __pyx_t_5 = PyList_GET_ITEM(sequence, 0); 
+        __pyx_t_16 = PyList_GET_ITEM(sequence, 1); 
       }
-      __Pyx_INCREF(__pyx_t_6);
-      __Pyx_INCREF(__pyx_t_8);
-      __Pyx_INCREF(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(__pyx_t_16);
       #else
-      __pyx_t_6 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 126, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_8 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 126, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_7 = PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 126, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_7);
+      __pyx_t_5 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 164, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_16 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 164, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_16);
       #endif
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     } else {
       Py_ssize_t index = -1;
-      __pyx_t_5 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 126, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_9 = Py_TYPE(__pyx_t_5)->tp_iternext;
-      index = 0; __pyx_t_6 = __pyx_t_9(__pyx_t_5); if (unlikely(!__pyx_t_6)) goto __pyx_L11_unpacking_failed;
+      __pyx_t_6 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 164, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      index = 1; __pyx_t_8 = __pyx_t_9(__pyx_t_5); if (unlikely(!__pyx_t_8)) goto __pyx_L11_unpacking_failed;
-      __Pyx_GOTREF(__pyx_t_8);
-      index = 2; __pyx_t_7 = __pyx_t_9(__pyx_t_5); if (unlikely(!__pyx_t_7)) goto __pyx_L11_unpacking_failed;
-      __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_5), 3) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
-      __pyx_t_9 = NULL;
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_8 = Py_TYPE(__pyx_t_6)->tp_iternext;
+      index = 0; __pyx_t_5 = __pyx_t_8(__pyx_t_6); if (unlikely(!__pyx_t_5)) goto __pyx_L11_unpacking_failed;
+      __Pyx_GOTREF(__pyx_t_5);
+      index = 1; __pyx_t_16 = __pyx_t_8(__pyx_t_6); if (unlikely(!__pyx_t_16)) goto __pyx_L11_unpacking_failed;
+      __Pyx_GOTREF(__pyx_t_16);
+      if (__Pyx_IternextUnpackEndCheck(__pyx_t_8(__pyx_t_6), 2) < 0) __PYX_ERR(0, 164, __pyx_L1_error)
+      __pyx_t_8 = NULL;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       goto __pyx_L12_unpacking_done;
       __pyx_L11_unpacking_failed:;
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_9 = NULL;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_8 = NULL;
       if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-      __PYX_ERR(0, 126, __pyx_L1_error)
+      __PYX_ERR(0, 164, __pyx_L1_error)
       __pyx_L12_unpacking_done:;
     }
-    __Pyx_XDECREF_SET(__pyx_v_idx, __pyx_t_6);
-    __pyx_t_6 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_8);
-    __pyx_t_8 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_read, __pyx_t_7);
-    __pyx_t_7 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_channel, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_read, __pyx_t_16);
+    __pyx_t_16 = 0;
 
-    /* "pysigfish.pyx":127
- *         status_dic = {}
- *         for idx, channel, read in enumerate(batch):
- *             status_dic[channel] = (read.channel, read.number, read.id, self.status[idx])             # <<<<<<<<<<<<<<
- * 
+    /* "pysigfish.pyx":165
+ *         idx = 0
+ *         for channel, read in batch:
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)             # <<<<<<<<<<<<<<
+ *             idx += 1
+ *         self.logger.debug("freeing memory")
+ */
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_number); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_id); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_16);
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_From_enum__sigfish_status((__pyx_v_self->status[__pyx_t_10])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_raw_data); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_7 = PyTuple_New(5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_INCREF(__pyx_v_channel);
+    __Pyx_GIVEREF(__pyx_v_channel);
+    PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_v_channel);
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_7, 1, __pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_16);
+    PyTuple_SET_ITEM(__pyx_t_7, 2, __pyx_t_16);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_7, 3, __pyx_t_5);
+    __Pyx_GIVEREF(__pyx_t_6);
+    PyTuple_SET_ITEM(__pyx_t_7, 4, __pyx_t_6);
+    __pyx_t_4 = 0;
+    __pyx_t_16 = 0;
+    __pyx_t_5 = 0;
+    __pyx_t_6 = 0;
+    if (unlikely(PyDict_SetItem(__pyx_v_status_dic, __pyx_v_channel, __pyx_t_7) < 0)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+    /* "pysigfish.pyx":166
+ *         for channel, read in batch:
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+ *             idx += 1             # <<<<<<<<<<<<<<
+ *         self.logger.debug("freeing memory")
  *         # free memory
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_channel); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 127, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_number); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 127, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_v_idx, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_read, __pyx_n_s_id); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 127, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_idx); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 127, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyInt_From_enum__sigfish_status((__pyx_v_self->status[__pyx_t_11])); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 127, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 127, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GIVEREF(__pyx_t_3);
-    PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3);
-    __Pyx_GIVEREF(__pyx_t_7);
-    PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_7);
-    __Pyx_GIVEREF(__pyx_t_8);
-    PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_t_8);
-    __Pyx_GIVEREF(__pyx_t_6);
-    PyTuple_SET_ITEM(__pyx_t_5, 3, __pyx_t_6);
-    __pyx_t_3 = 0;
+    __Pyx_DECREF_SET(__pyx_v_idx, __pyx_t_7);
     __pyx_t_7 = 0;
-    __pyx_t_8 = 0;
-    __pyx_t_6 = 0;
-    if (unlikely(PyDict_SetItem(__pyx_v_status_dic, __pyx_v_channel, __pyx_t_5) < 0)) __PYX_ERR(0, 127, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "pysigfish.pyx":126
- * 
+    /* "pysigfish.pyx":164
  *         status_dic = {}
- *         for idx, channel, read in enumerate(batch):             # <<<<<<<<<<<<<<
- *             status_dic[channel] = (read.channel, read.number, read.id, self.status[idx])
- * 
+ *         idx = 0
+ *         for channel, read in batch:             # <<<<<<<<<<<<<<
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+ *             idx += 1
  */
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":130
- * 
+  /* "pysigfish.pyx":167
+ *             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
+ *             idx += 1
+ *         self.logger.debug("freeing memory")             # <<<<<<<<<<<<<<
+ *         # free memory
+ *         for i in range(self.batch_len):
+ */
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 167, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_6 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+    if (likely(__pyx_t_6)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_6);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_7, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_kp_u_freeing_memory) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_kp_u_freeing_memory);
+  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 167, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":169
+ *         self.logger.debug("freeing memory")
  *         # free memory
  *         for i in range(self.batch_len):             # <<<<<<<<<<<<<<
- *             for j in range(self.sbatch[i].len_raw_signal):
- *                 free(self.sbatch[i].raw_signal)
+ *             free(self.sbatch[i].raw_signal)
+ *             # for j in range(self.sbatch[i].len_raw_signal):
  */
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->batch_len); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->batch_len); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 130, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_7 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 169, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
-    __pyx_t_2 = __pyx_t_5; __Pyx_INCREF(__pyx_t_2); __pyx_t_1 = 0;
-    __pyx_t_4 = NULL;
+  if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
+    __pyx_t_2 = __pyx_t_7; __Pyx_INCREF(__pyx_t_2); __pyx_t_1 = 0;
+    __pyx_t_3 = NULL;
   } else {
-    __pyx_t_1 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 130, __pyx_L1_error)
+    __pyx_t_1 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 169, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 130, __pyx_L1_error)
+    __pyx_t_3 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 169, __pyx_L1_error)
   }
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   for (;;) {
-    if (likely(!__pyx_t_4)) {
+    if (likely(!__pyx_t_3)) {
       if (likely(PyList_CheckExact(__pyx_t_2))) {
         if (__pyx_t_1 >= PyList_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_5); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 130, __pyx_L1_error)
+        __pyx_t_7 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_7); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 169, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 130, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_7 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 169, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_7);
         #endif
       } else {
         if (__pyx_t_1 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_5); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 130, __pyx_L1_error)
+        __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_1); __Pyx_INCREF(__pyx_t_7); __pyx_t_1++; if (unlikely(0 < 0)) __PYX_ERR(0, 169, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 130, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_7 = PySequence_ITEM(__pyx_t_2, __pyx_t_1); __pyx_t_1++; if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 169, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_7);
         #endif
       }
     } else {
-      __pyx_t_5 = __pyx_t_4(__pyx_t_2);
-      if (unlikely(!__pyx_t_5)) {
+      __pyx_t_7 = __pyx_t_3(__pyx_t_2);
+      if (unlikely(!__pyx_t_7)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 130, __pyx_L1_error)
+          else __PYX_ERR(0, 169, __pyx_L1_error)
         }
         break;
       }
-      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_GOTREF(__pyx_t_7);
     }
-    __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_5);
-    __pyx_t_5 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_7);
+    __pyx_t_7 = 0;
 
-    /* "pysigfish.pyx":131
+    /* "pysigfish.pyx":170
  *         # free memory
  *         for i in range(self.batch_len):
- *             for j in range(self.sbatch[i].len_raw_signal):             # <<<<<<<<<<<<<<
- *                 free(self.sbatch[i].raw_signal)
- *         free(self.sbatch)
+ *             free(self.sbatch[i].raw_signal)             # <<<<<<<<<<<<<<
+ *             # for j in range(self.sbatch[i].len_raw_signal):
+ *                 # free(self.sbatch[i].raw_signal[j])
  */
-    __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_i); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 131, __pyx_L1_error)
-    __pyx_t_12 = (__pyx_v_self->sbatch[__pyx_t_11]).len_raw_signal;
-    __pyx_t_19 = __pyx_t_12;
-    for (__pyx_t_20 = 0; __pyx_t_20 < __pyx_t_19; __pyx_t_20+=1) {
-      __pyx_v_j = __pyx_t_20;
+    __pyx_t_10 = __Pyx_PyIndex_AsSsize_t(__pyx_v_i); if (unlikely((__pyx_t_10 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 170, __pyx_L1_error)
+    free((__pyx_v_self->sbatch[__pyx_t_10]).raw_signal);
 
-      /* "pysigfish.pyx":132
- *         for i in range(self.batch_len):
- *             for j in range(self.sbatch[i].len_raw_signal):
- *                 free(self.sbatch[i].raw_signal)             # <<<<<<<<<<<<<<
- *         free(self.sbatch)
- *         free(self.status)
- */
-      __pyx_t_11 = __Pyx_PyIndex_AsSsize_t(__pyx_v_i); if (unlikely((__pyx_t_11 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 132, __pyx_L1_error)
-      free((__pyx_v_self->sbatch[__pyx_t_11]).raw_signal);
-    }
-
-    /* "pysigfish.pyx":130
- * 
+    /* "pysigfish.pyx":169
+ *         self.logger.debug("freeing memory")
  *         # free memory
  *         for i in range(self.batch_len):             # <<<<<<<<<<<<<<
- *             for j in range(self.sbatch[i].len_raw_signal):
- *                 free(self.sbatch[i].raw_signal)
+ *             free(self.sbatch[i].raw_signal)
+ *             # for j in range(self.sbatch[i].len_raw_signal):
  */
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "pysigfish.pyx":133
- *             for j in range(self.sbatch[i].len_raw_signal):
- *                 free(self.sbatch[i].raw_signal)
+  /* "pysigfish.pyx":173
+ *             # for j in range(self.sbatch[i].len_raw_signal):
+ *                 # free(self.sbatch[i].raw_signal[j])
+ *         self.logger.debug("free sbatch")             # <<<<<<<<<<<<<<
+ *         free(self.sbatch)
+ *         self.logger.debug("free status")
+ */
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 173, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_6 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+    if (likely(__pyx_t_6)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_6);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_7, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_kp_u_free_sbatch) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_kp_u_free_sbatch);
+  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":174
+ *                 # free(self.sbatch[i].raw_signal[j])
+ *         self.logger.debug("free sbatch")
  *         free(self.sbatch)             # <<<<<<<<<<<<<<
+ *         self.logger.debug("free status")
  *         free(self.status)
- * 
  */
   free(__pyx_v_self->sbatch);
 
-  /* "pysigfish.pyx":134
- *                 free(self.sbatch[i].raw_signal)
+  /* "pysigfish.pyx":175
+ *         self.logger.debug("free sbatch")
  *         free(self.sbatch)
+ *         self.logger.debug("free status")             # <<<<<<<<<<<<<<
+ *         free(self.status)
+ *         # self.logger.debug("free rid")
+ */
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 175, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_6 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+    if (likely(__pyx_t_6)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_6);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_7, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_kp_u_free_status) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_kp_u_free_status);
+  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 175, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":176
+ *         free(self.sbatch)
+ *         self.logger.debug("free status")
  *         free(self.status)             # <<<<<<<<<<<<<<
- * 
- *         return status_dic
+ *         # self.logger.debug("free rid")
+ *         # free(self.rid)
  */
   free(__pyx_v_self->status);
 
-  /* "pysigfish.pyx":136
- *         free(self.status)
+  /* "pysigfish.pyx":180
+ *         # free(self.rid)
  * 
+ *         self.logger.debug("returning")             # <<<<<<<<<<<<<<
+ *         return status_dic
+ * 
+ */
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self->logger, __pyx_n_s_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 180, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_6 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_7);
+    if (likely(__pyx_t_6)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_6);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_7, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_6, __pyx_n_u_returning) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_n_u_returning);
+  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "pysigfish.pyx":181
+ * 
+ *         self.logger.debug("returning")
  *         return status_dic             # <<<<<<<<<<<<<<
  * 
  */
@@ -3755,7 +4174,7 @@ static PyObject *__pyx_pf_9pysigfish_5start_6process_batch(struct __pyx_obj_9pys
   __pyx_r = __pyx_v_status_dic;
   goto __pyx_L0;
 
-  /* "pysigfish.pyx":91
+  /* "pysigfish.pyx":114
  * 
  * 
  *     def process_batch(self, batch, signal_dtype):             # <<<<<<<<<<<<<<
@@ -3766,17 +4185,18 @@ static PyObject *__pyx_pf_9pysigfish_5start_6process_batch(struct __pyx_obj_9pys
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_16);
   __Pyx_AddTraceback("pysigfish.start.process_batch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_idx);
   __Pyx_XDECREF(__pyx_v_channel);
   __Pyx_XDECREF(__pyx_v_read);
+  __Pyx_XDECREF(__pyx_v_rid);
   __Pyx_XDECREF(__pyx_v_sig);
   __Pyx_XDECREF(__pyx_v_memview);
   __Pyx_XDECREF(__pyx_v_i);
@@ -3906,7 +4326,7 @@ static PyObject *__pyx_pf_9pysigfish_5start_10__setstate_cython__(CYTHON_UNUSED 
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":734
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3925,7 +4345,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
   __Pyx_TraceCall("PyArray_MultiIterNew1", __pyx_f[2], 734, 0, __PYX_ERR(2, 734, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":735
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -3939,7 +4359,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":734
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3959,7 +4379,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":737
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3978,7 +4398,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
   __Pyx_TraceCall("PyArray_MultiIterNew2", __pyx_f[2], 737, 0, __PYX_ERR(2, 737, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":738
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -3992,7 +4412,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":737
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4012,7 +4432,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":740
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4031,7 +4451,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
   __Pyx_TraceCall("PyArray_MultiIterNew3", __pyx_f[2], 740, 0, __PYX_ERR(2, 740, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":741
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -4045,7 +4465,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":740
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4065,7 +4485,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":743
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4084,7 +4504,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
   __Pyx_TraceCall("PyArray_MultiIterNew4", __pyx_f[2], 743, 0, __PYX_ERR(2, 743, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":744
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -4098,7 +4518,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":743
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4118,7 +4538,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":746
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4137,7 +4557,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
   __Pyx_TraceCall("PyArray_MultiIterNew5", __pyx_f[2], 746, 0, __PYX_ERR(2, 746, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":747
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -4151,7 +4571,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":746
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4171,7 +4591,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":749
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4190,7 +4610,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
   __Pyx_TraceCall("PyDataType_SHAPE", __pyx_f[2], 749, 0, __PYX_ERR(2, 749, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":750
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4200,7 +4620,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":751
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -4212,7 +4632,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":750
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4221,7 +4641,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":753
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -4235,7 +4655,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":749
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4254,7 +4674,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":928
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4271,7 +4691,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannySetupContext("set_array_base", 0);
   __Pyx_TraceCall("set_array_base", __pyx_f[2], 928, 0, __PYX_ERR(2, 928, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":929
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":929
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -4280,7 +4700,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":930
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":930
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -4289,7 +4709,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":928
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4306,7 +4726,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":932
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4326,7 +4746,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __Pyx_RefNannySetupContext("get_array_base", 0);
   __Pyx_TraceCall("get_array_base", __pyx_f[2], 932, 0, __PYX_ERR(2, 932, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":933
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":933
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -4335,7 +4755,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":934
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4345,7 +4765,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":935
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":935
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -4356,7 +4776,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":934
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4365,7 +4785,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":936
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":936
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -4377,7 +4797,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":932
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4396,7 +4816,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":940
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4422,7 +4842,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   __Pyx_RefNannySetupContext("import_array", 0);
   __Pyx_TraceCall("import_array", __pyx_f[2], 940, 0, __PYX_ERR(2, 940, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":941
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4438,7 +4858,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":942
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":942
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -4447,7 +4867,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 942, __pyx_L3_error)
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":941
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4461,7 +4881,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":943
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":943
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4476,7 +4896,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":944
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4492,7 +4912,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":941
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4507,7 +4927,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":940
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4531,7 +4951,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":946
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4557,7 +4977,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   __Pyx_RefNannySetupContext("import_umath", 0);
   __Pyx_TraceCall("import_umath", __pyx_f[2], 946, 0, __PYX_ERR(2, 946, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":947
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4573,7 +4993,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":948
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":948
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4582,7 +5002,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 948, __pyx_L3_error)
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":947
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4596,7 +5016,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":949
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":949
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4611,7 +5031,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":950
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4627,7 +5047,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":947
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4642,7 +5062,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":946
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4666,7 +5086,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":952
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4692,7 +5112,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   __Pyx_RefNannySetupContext("import_ufunc", 0);
   __Pyx_TraceCall("import_ufunc", __pyx_f[2], 952, 0, __PYX_ERR(2, 952, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":953
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4708,7 +5128,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":954
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":954
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4717,7 +5137,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 954, __pyx_L3_error)
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":953
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4731,7 +5151,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":955
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":955
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4746,7 +5166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":956
+      /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":956
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4762,7 +5182,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":953
+    /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4777,7 +5197,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":952
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4801,7 +5221,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":966
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4819,7 +5239,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
   __Pyx_TraceCall("is_timedelta64_object", __pyx_f[2], 966, 0, __PYX_ERR(2, 966, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":978
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":978
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -4829,7 +5249,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":966
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4847,7 +5267,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":981
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4865,7 +5285,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
   __Pyx_TraceCall("is_datetime64_object", __pyx_f[2], 981, 0, __PYX_ERR(2, 981, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":993
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":993
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -4875,7 +5295,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":981
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4893,7 +5313,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":996
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4909,7 +5329,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   int __pyx_clineno = 0;
   __Pyx_TraceCall("get_datetime64_value", __pyx_f[2], 996, 1, __PYX_ERR(2, 996, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1003
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4919,7 +5339,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":996
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4936,7 +5356,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1006
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4952,7 +5372,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   int __pyx_clineno = 0;
   __Pyx_TraceCall("get_timedelta64_value", __pyx_f[2], 1006, 1, __PYX_ERR(2, 1006, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1010
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4962,7 +5382,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4979,7 +5399,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1013
+/* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4995,7 +5415,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   int __pyx_clineno = 0;
   __Pyx_TraceCall("get_datetime64_unit", __pyx_f[2], 1013, 1, __PYX_ERR(2, 1013, __pyx_L1_error));
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1017
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -5003,7 +5423,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5021,6 +5441,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
 }
 
 static PyObject *__pyx_tp_new_9pysigfish_start(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_9pysigfish_start *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -5028,6 +5449,8 @@ static PyObject *__pyx_tp_new_9pysigfish_start(PyTypeObject *t, PyObject *a, PyO
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
+  p = ((struct __pyx_obj_9pysigfish_start *)o);
+  p->logger = Py_None; Py_INCREF(Py_None);
   if (unlikely(__pyx_pw_9pysigfish_5start_1__cinit__(o, a, k) < 0)) goto bad;
   return o;
   bad:
@@ -5036,11 +5459,13 @@ static PyObject *__pyx_tp_new_9pysigfish_start(PyTypeObject *t, PyObject *a, PyO
 }
 
 static void __pyx_tp_dealloc_9pysigfish_start(PyObject *o) {
+  struct __pyx_obj_9pysigfish_start *p = (struct __pyx_obj_9pysigfish_start *)o;
   #if CYTHON_USE_TP_FINALIZE
-  if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && (!PyType_IS_GC(Py_TYPE(o)) || !_PyGC_FINALIZED(o))) {
+  if (unlikely(PyType_HasFeature(Py_TYPE(o), Py_TPFLAGS_HAVE_FINALIZE) && Py_TYPE(o)->tp_finalize) && !_PyGC_FINALIZED(o)) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
   }
   #endif
+  PyObject_GC_UnTrack(o);
   {
     PyObject *etype, *eval, *etb;
     PyErr_Fetch(&etype, &eval, &etb);
@@ -5049,7 +5474,26 @@ static void __pyx_tp_dealloc_9pysigfish_start(PyObject *o) {
     __Pyx_SET_REFCNT(o, Py_REFCNT(o) - 1);
     PyErr_Restore(etype, eval, etb);
   }
+  Py_CLEAR(p->logger);
   (*Py_TYPE(o)->tp_free)(o);
+}
+
+static int __pyx_tp_traverse_9pysigfish_start(PyObject *o, visitproc v, void *a) {
+  int e;
+  struct __pyx_obj_9pysigfish_start *p = (struct __pyx_obj_9pysigfish_start *)o;
+  if (p->logger) {
+    e = (*v)(p->logger, a); if (e) return e;
+  }
+  return 0;
+}
+
+static int __pyx_tp_clear_9pysigfish_start(PyObject *o) {
+  PyObject* tmp;
+  struct __pyx_obj_9pysigfish_start *p = (struct __pyx_obj_9pysigfish_start *)o;
+  tmp = ((PyObject*)p->logger);
+  p->logger = Py_None; Py_INCREF(Py_None);
+  Py_XDECREF(tmp);
+  return 0;
 }
 
 static PyMethodDef __pyx_methods_9pysigfish_start[] = {
@@ -5089,10 +5533,10 @@ static PyTypeObject __pyx_type_9pysigfish_start = {
   0, /*tp_getattro*/
   0, /*tp_setattro*/
   0, /*tp_as_buffer*/
-  Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE, /*tp_flags*/
+  Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "\n    Creates a new sigfish object\n\n    ", /*tp_doc*/
-  0, /*tp_traverse*/
-  0, /*tp_clear*/
+  __pyx_tp_traverse_9pysigfish_start, /*tp_traverse*/
+  __pyx_tp_clear_9pysigfish_start, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -5182,12 +5626,12 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_MemoryError, __pyx_k_MemoryError, sizeof(__pyx_k_MemoryError), 0, 0, 1, 1},
   {&__pyx_kp_u_Ref_could_not_be_opened_and_sigf, __pyx_k_Ref_could_not_be_opened_and_sigf, sizeof(__pyx_k_Ref_could_not_be_opened_and_sigf), 0, 1, 0, 0},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
-  {&__pyx_n_s_V, __pyx_k_V, sizeof(__pyx_k_V), 0, 0, 1, 1},
   {&__pyx_n_s_WARNING, __pyx_k_WARNING, sizeof(__pyx_k_WARNING), 0, 0, 1, 1},
   {&__pyx_kp_u_asctime_s_levelname_s_message_s, __pyx_k_asctime_s_levelname_s_message_s, sizeof(__pyx_k_asctime_s_levelname_s_message_s), 0, 1, 0, 0},
   {&__pyx_n_s_basicConfig, __pyx_k_basicConfig, sizeof(__pyx_k_basicConfig), 0, 0, 1, 1},
   {&__pyx_n_s_batch, __pyx_k_batch, sizeof(__pyx_k_batch), 0, 0, 1, 1},
-  {&__pyx_n_s_channel, __pyx_k_channel, sizeof(__pyx_k_channel), 0, 0, 1, 1},
+  {&__pyx_kp_u_building_return, __pyx_k_building_return, sizeof(__pyx_k_building_return), 0, 1, 0, 0},
+  {&__pyx_kp_u_calling_process_sigfish, __pyx_k_calling_process_sigfish, sizeof(__pyx_k_calling_process_sigfish), 0, 1, 0, 0},
   {&__pyx_n_s_channels, __pyx_k_channels, sizeof(__pyx_k_channels), 0, 0, 1, 1},
   {&__pyx_n_s_chunk_length, __pyx_k_chunk_length, sizeof(__pyx_k_chunk_length), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
@@ -5195,10 +5639,15 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_d_b_y_H_M_S, __pyx_k_d_b_y_H_M_S, sizeof(__pyx_k_d_b_y_H_M_S), 0, 1, 0, 0},
   {&__pyx_n_s_datefmt, __pyx_k_datefmt, sizeof(__pyx_k_datefmt), 0, 0, 1, 1},
   {&__pyx_n_s_debug, __pyx_k_debug, sizeof(__pyx_k_debug), 0, 0, 1, 1},
+  {&__pyx_n_s_dev, __pyx_k_dev, sizeof(__pyx_k_dev), 0, 0, 1, 1},
   {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
-  {&__pyx_n_s_enumerate, __pyx_k_enumerate, sizeof(__pyx_k_enumerate), 0, 0, 1, 1},
   {&__pyx_n_s_error, __pyx_k_error, sizeof(__pyx_k_error), 0, 0, 1, 1},
   {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
+  {&__pyx_kp_u_free_REF, __pyx_k_free_REF, sizeof(__pyx_k_free_REF), 0, 1, 0, 0},
+  {&__pyx_kp_u_free_sbatch, __pyx_k_free_sbatch, sizeof(__pyx_k_free_sbatch), 0, 1, 0, 0},
+  {&__pyx_kp_u_free_state, __pyx_k_free_state, sizeof(__pyx_k_free_state), 0, 1, 0, 0},
+  {&__pyx_kp_u_free_status, __pyx_k_free_status, sizeof(__pyx_k_free_status), 0, 1, 0, 0},
+  {&__pyx_kp_u_freeing_memory, __pyx_k_freeing_memory, sizeof(__pyx_k_freeing_memory), 0, 1, 0, 0},
   {&__pyx_n_s_fromstring, __pyx_k_fromstring, sizeof(__pyx_k_fromstring), 0, 0, 1, 1},
   {&__pyx_n_s_getLogger, __pyx_k_getLogger, sizeof(__pyx_k_getLogger), 0, 0, 1, 1},
   {&__pyx_n_s_getstate, __pyx_k_getstate, sizeof(__pyx_k_getstate), 0, 0, 1, 1},
@@ -5206,7 +5655,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_kp_u_initiating_sigfish, __pyx_k_initiating_sigfish, sizeof(__pyx_k_initiating_sigfish), 0, 1, 0, 0},
   {&__pyx_n_s_level, __pyx_k_level, sizeof(__pyx_k_level), 0, 0, 1, 1},
-  {&__pyx_n_s_logger, __pyx_k_logger, sizeof(__pyx_k_logger), 0, 0, 1, 1},
   {&__pyx_n_s_logging, __pyx_k_logging, sizeof(__pyx_k_logging), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_memoryview, __pyx_k_memoryview, sizeof(__pyx_k_memoryview), 0, 0, 1, 1},
@@ -5217,12 +5665,15 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_kp_u_numpy_core_multiarray_failed_to, __pyx_k_numpy_core_multiarray_failed_to, sizeof(__pyx_k_numpy_core_multiarray_failed_to), 0, 1, 0, 0},
   {&__pyx_kp_u_numpy_core_umath_failed_to_impor, __pyx_k_numpy_core_umath_failed_to_impor, sizeof(__pyx_k_numpy_core_umath_failed_to_impor), 0, 1, 0, 0},
+  {&__pyx_n_s_paf, __pyx_k_paf, sizeof(__pyx_k_paf), 0, 0, 1, 1},
+  {&__pyx_kp_u_process_sigfish_done, __pyx_k_process_sigfish_done, sizeof(__pyx_k_process_sigfish_done), 0, 1, 0, 0},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
   {&__pyx_n_s_raw_data, __pyx_k_raw_data, sizeof(__pyx_k_raw_data), 0, 0, 1, 1},
   {&__pyx_n_s_reduce, __pyx_k_reduce, sizeof(__pyx_k_reduce), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_cython, __pyx_k_reduce_cython, sizeof(__pyx_k_reduce_cython), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_ex, __pyx_k_reduce_ex, sizeof(__pyx_k_reduce_ex), 0, 0, 1, 1},
   {&__pyx_n_s_ref, __pyx_k_ref, sizeof(__pyx_k_ref), 0, 0, 1, 1},
+  {&__pyx_n_u_returning, __pyx_k_returning, sizeof(__pyx_k_returning), 0, 1, 0, 1},
   {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
   {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
   {&__pyx_n_s_signal_dtype, __pyx_k_signal_dtype, sizeof(__pyx_k_signal_dtype), 0, 0, 1, 1},
@@ -5234,9 +5685,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(0, 70, __pyx_L1_error)
-  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 113, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 120, __pyx_L1_error)
+  __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 153, __pyx_L1_error)
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(1, 2, __pyx_L1_error)
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 944, __pyx_L1_error)
   return 0;
@@ -5267,7 +5717,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":944
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -5278,7 +5728,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":950
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -5730,7 +6180,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../pvenv/pysigfish/lib/python3.8/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../Data/cheat_MinKNOW/sigknow/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5807,6 +6257,32 @@ static PyObject *__Pyx_GetBuiltinName(PyObject *name) {
 #endif
     }
     return result;
+}
+
+/* RaiseArgTupleInvalid */
+static void __Pyx_RaiseArgtupleInvalid(
+    const char* func_name,
+    int exact,
+    Py_ssize_t num_min,
+    Py_ssize_t num_max,
+    Py_ssize_t num_found)
+{
+    Py_ssize_t num_expected;
+    const char *more_or_less;
+    if (num_found < num_min) {
+        num_expected = num_min;
+        more_or_less = "at least";
+    } else {
+        num_expected = num_max;
+        more_or_less = "at most";
+    }
+    if (exact) {
+        more_or_less = "exactly";
+    }
+    PyErr_Format(PyExc_TypeError,
+                 "%.200s() takes %.8s %" CYTHON_FORMAT_SSIZE_T "d positional argument%.1s (%" CYTHON_FORMAT_SSIZE_T "d given)",
+                 func_name, more_or_less, num_expected,
+                 (num_expected == 1) ? "" : "s", num_found);
 }
 
 /* RaiseDoubleKeywords */
@@ -5925,32 +6401,6 @@ bad:
     return -1;
 }
 
-/* RaiseArgTupleInvalid */
-static void __Pyx_RaiseArgtupleInvalid(
-    const char* func_name,
-    int exact,
-    Py_ssize_t num_min,
-    Py_ssize_t num_max,
-    Py_ssize_t num_found)
-{
-    Py_ssize_t num_expected;
-    const char *more_or_less;
-    if (num_found < num_min) {
-        num_expected = num_min;
-        more_or_less = "at least";
-    } else {
-        num_expected = num_max;
-        more_or_less = "at most";
-    }
-    if (exact) {
-        more_or_less = "exactly";
-    }
-    PyErr_Format(PyExc_TypeError,
-                 "%.200s() takes %.8s %" CYTHON_FORMAT_SSIZE_T "d positional argument%.1s (%" CYTHON_FORMAT_SSIZE_T "d given)",
-                 func_name, more_or_less, num_expected,
-                 (num_expected == 1) ? "" : "s", num_found);
-}
-
 /* PyErrFetchRestore */
 #if CYTHON_FAST_THREAD_STATE
 static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
@@ -6062,20 +6512,6 @@ bad:
     Py_XDECREF(py_funcname);
 #endif
     return py_code;
-}
-#endif
-
-/* PyObjectSetAttrStr */
-#if CYTHON_USE_TYPE_SLOTS
-static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value) {
-    PyTypeObject* tp = Py_TYPE(obj);
-    if (likely(tp->tp_setattro))
-        return tp->tp_setattro(obj, attr_name, value);
-#if PY_MAJOR_VERSION < 3
-    if (likely(tp->tp_setattr))
-        return tp->tp_setattr(obj, PyString_AS_STRING(attr_name), value);
-#endif
-    return PyObject_SetAttr(obj, attr_name, value);
 }
 #endif
 
@@ -6669,6 +7105,130 @@ static PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key) {
         return m->mp_subscript(obj, key);
     }
     return __Pyx_PyObject_GetIndex(obj, key);
+}
+#endif
+
+/* PyIntBinop */
+#if !CYTHON_COMPILING_IN_PYPY
+static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, int inplace, int zerodivision_check) {
+    (void)inplace;
+    (void)zerodivision_check;
+    #if PY_MAJOR_VERSION < 3
+    if (likely(PyInt_CheckExact(op1))) {
+        const long b = intval;
+        long x;
+        long a = PyInt_AS_LONG(op1);
+            x = (long)((unsigned long)a + b);
+            if (likely((x^a) >= 0 || (x^b) >= 0))
+                return PyInt_FromLong(x);
+            return PyLong_Type.tp_as_number->nb_add(op1, op2);
+    }
+    #endif
+    #if CYTHON_USE_PYLONG_INTERNALS
+    if (likely(PyLong_CheckExact(op1))) {
+        const long b = intval;
+        long a, x;
+#ifdef HAVE_LONG_LONG
+        const PY_LONG_LONG llb = intval;
+        PY_LONG_LONG lla, llx;
+#endif
+        const digit* digits = ((PyLongObject*)op1)->ob_digit;
+        const Py_ssize_t size = Py_SIZE(op1);
+        if (likely(__Pyx_sst_abs(size) <= 1)) {
+            a = likely(size) ? digits[0] : 0;
+            if (size == -1) a = -a;
+        } else {
+            switch (size) {
+                case -2:
+                    if (8 * sizeof(long) - 1 > 2 * PyLong_SHIFT) {
+                        a = -(long) (((((unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 2 * PyLong_SHIFT) {
+                        lla = -(PY_LONG_LONG) (((((unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                case 2:
+                    if (8 * sizeof(long) - 1 > 2 * PyLong_SHIFT) {
+                        a = (long) (((((unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 2 * PyLong_SHIFT) {
+                        lla = (PY_LONG_LONG) (((((unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                case -3:
+                    if (8 * sizeof(long) - 1 > 3 * PyLong_SHIFT) {
+                        a = -(long) (((((((unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 3 * PyLong_SHIFT) {
+                        lla = -(PY_LONG_LONG) (((((((unsigned PY_LONG_LONG)digits[2]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                case 3:
+                    if (8 * sizeof(long) - 1 > 3 * PyLong_SHIFT) {
+                        a = (long) (((((((unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 3 * PyLong_SHIFT) {
+                        lla = (PY_LONG_LONG) (((((((unsigned PY_LONG_LONG)digits[2]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                case -4:
+                    if (8 * sizeof(long) - 1 > 4 * PyLong_SHIFT) {
+                        a = -(long) (((((((((unsigned long)digits[3]) << PyLong_SHIFT) | (unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 4 * PyLong_SHIFT) {
+                        lla = -(PY_LONG_LONG) (((((((((unsigned PY_LONG_LONG)digits[3]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[2]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                case 4:
+                    if (8 * sizeof(long) - 1 > 4 * PyLong_SHIFT) {
+                        a = (long) (((((((((unsigned long)digits[3]) << PyLong_SHIFT) | (unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0]));
+                        break;
+#ifdef HAVE_LONG_LONG
+                    } else if (8 * sizeof(PY_LONG_LONG) - 1 > 4 * PyLong_SHIFT) {
+                        lla = (PY_LONG_LONG) (((((((((unsigned PY_LONG_LONG)digits[3]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[2]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[1]) << PyLong_SHIFT) | (unsigned PY_LONG_LONG)digits[0]));
+                        goto long_long;
+#endif
+                    }
+                    CYTHON_FALLTHROUGH;
+                default: return PyLong_Type.tp_as_number->nb_add(op1, op2);
+            }
+        }
+                x = a + b;
+            return PyLong_FromLong(x);
+#ifdef HAVE_LONG_LONG
+        long_long:
+                llx = lla + llb;
+            return PyLong_FromLongLong(llx);
+#endif
+        
+        
+    }
+    #endif
+    if (PyFloat_CheckExact(op1)) {
+        const long b = intval;
+        double a = PyFloat_AS_DOUBLE(op1);
+            double result;
+            PyFPE_START_PROTECT("add", return NULL)
+            result = ((double)a) + (double)b;
+            PyFPE_END_PROTECT(result)
+            return PyFloat_FromDouble(result);
+    }
+    return (inplace ? PyNumber_InPlaceAdd : PyNumber_Add)(op1, op2);
 }
 #endif
 
@@ -8703,44 +9263,6 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {
         int one = 1; int little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&value;
         return _PyLong_FromByteArray(bytes, sizeof(int),
-                                     little, !is_unsigned);
-    }
-}
-
-/* CIntToPy */
-static CYTHON_INLINE PyObject* __Pyx_PyInt_From_uint64_t(uint64_t value) {
-#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wconversion"
-#endif
-    const uint64_t neg_one = (uint64_t) -1, const_zero = (uint64_t) 0;
-#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
-#pragma GCC diagnostic pop
-#endif
-    const int is_unsigned = neg_one > const_zero;
-    if (is_unsigned) {
-        if (sizeof(uint64_t) < sizeof(long)) {
-            return PyInt_FromLong((long) value);
-        } else if (sizeof(uint64_t) <= sizeof(unsigned long)) {
-            return PyLong_FromUnsignedLong((unsigned long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(uint64_t) <= sizeof(unsigned PY_LONG_LONG)) {
-            return PyLong_FromUnsignedLongLong((unsigned PY_LONG_LONG) value);
-#endif
-        }
-    } else {
-        if (sizeof(uint64_t) <= sizeof(long)) {
-            return PyInt_FromLong((long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(uint64_t) <= sizeof(PY_LONG_LONG)) {
-            return PyLong_FromLongLong((PY_LONG_LONG) value);
-#endif
-        }
-    }
-    {
-        int one = 1; int little = (int)*(unsigned char *)&one;
-        unsigned char *bytes = (unsigned char *)&value;
-        return _PyLong_FromByteArray(bytes, sizeof(uint64_t),
                                      little, !is_unsigned);
     }
 }

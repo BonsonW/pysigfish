@@ -18,9 +18,16 @@ cdef extern from "sigfish.h":
 		int32_t channel;
 		uint64_t len_raw_signal;
 		float* raw_signal;
+		char* read_id;
 		pass
 	
+	ctypedef struct sigfish_opt_t:
+		int num_thread;
+		const char* debug_paf;
+		int8_t no_full_ref;
+
+	
 	# sigfish interface
-	sigfish_state_t *init_sigfish(const char *ref, int num_channels, int threads);
+	sigfish_state_t *init_sigfish(const char *ref, int num_channels, sigfish_opt_t opt);
 	sigfish_status *process_sigfish(sigfish_state_t *state, sigfish_read_t *read_batch, int batch_size);
 	void free_sigfish(sigfish_state_t *state);

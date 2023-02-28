@@ -7,8 +7,6 @@ except ImportError:
     from distutils.extension import Extension
 
 import sys
-import platform
-import os
 
 include_dirs = []
 # import numpy as np
@@ -18,9 +16,9 @@ include_dirs = []
 # for the install.
 try:
     import numpy as np
-    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/', np.get_include()]
+    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/', 'sigfish/slow5lib/include/', 'sigfish/slow5lib/thirdparty/streamvbyte/include/', np.get_include()]
 except ImportError:
-    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/']
+    include_dirs = ['include/', 'sigfish/include/', 'sigfish/slow5lib/include/', 'sigfish/slow5lib/include/', 'sigfish/slow5lib/thirdparty/streamvbyte/include/']
     def np(*args, ** kwargs ):
         import numpy as np
         return np(*args, ** kwargs)
@@ -36,19 +34,59 @@ except ImportError:
 
 #adapted from https://github.com/lh3/minimap2/blob/master/setup.py
 
-sources=['python/pysigfish.pyx', 'sigfish/src/sigfish.c']
-depends=['python/pysigfish.pxd', 'python/pysigfish.h', 'sigfish/include/sigfish.h']
+sources=['python/pysigfish.pyx',
+         'sigfish/src/cdtw.c',
+         'sigfish/src/events.c',
+         'sigfish/src/genref.c',
+         'sigfish/src/jnn.c',
+         'sigfish/src/rjnn.c',
+         'sigfish/src/misc.c',
+         'sigfish/src/model.c',
+         'sigfish/src/sigfish.c',
+         'sigfish/src/thread.c',
+         'sigfish/slow5lib/src/slow5.c',
+         'sigfish/slow5lib/src/slow5_press.c',
+         'sigfish/slow5lib/src/slow5_misc.c',
+         'sigfish/slow5lib/src/slow5_idx.c',
+         'sigfish/slow5lib/thirdparty/streamvbyte/src/streamvbyte_zigzag.c',
+         'sigfish/slow5lib/thirdparty/streamvbyte/src/streamvbyte_decode.c',
+         'sigfish/slow5lib/thirdparty/streamvbyte/src/streamvbyte_encode.c']
+depends=['python/pysigfish.pxd',
+         'python/pysigfish.h',
+         'sigfish/src/cdtw.h',
+         'sigfish/src/error.h',
+         'sigfish/src/jnn.h',
+         'sigfish/src/rjnn.h',
+         'sigfish/src/khash.h',
+         'sigfish/src/kseq.h',
+         'sigfish/src/ksort.h',
+         'sigfish/src/misc.h',
+         'sigfish/src/model.h',
+         'sigfish/src/ref.h',
+         'sigfish/src/stat.h',
+         'sigfish/slow5lib/include/slow5/slow5.h',
+         'sigfish/slow5lib/include/slow5/slow5_defs.h',
+         'sigfish/slow5lib/include/slow5/slow5_error.h',
+         'sigfish/slow5lib/include/slow5/slow5_press.h',
+         'sigfish/slow5lib/include/slow5/klib/khash.h',
+         'sigfish/slow5lib/include/slow5/klib/kvec.h',
+         'sigfish/slow5lib/src/slow5_extra.h',
+         'sigfish/slow5lib/src/slow5_idx.h',
+         'sigfish/slow5lib/src/slow5_misc.h',
+         'sigfish/slow5lib/src/klib/ksort.h',
+         'thirdparty/streamvbyte/include/streamvbyte.h',
+         'thirdparty/streamvbyte/include/streamvbyte_zigzag.h']
 extra_compile_args = ['-g', '-Wall', '-O2', '-std=c99']
 # extra_compile_args = []
 # os.environ["CFLAGS"] = '-g -Wall -O2 -std=c99'
 
-arch=platform.machine()
-if arch in ["aarch64", "arm64"]:
-    extra_compile_args.append('-D__ARM_NEON__')
-elif arch in ["aarch64"]:
-	extra_compile_args.append('-mfpu=neon')
-elif arch in ["x86_64"]:
-    extra_compile_args.extend(['-mssse3'])   # WARNING: ancient x86_64 CPUs don't have SSSE3
+# arch=platform.machine()
+# if arch in ["aarch64", "arm64"]:
+#     extra_compile_args.append('-D__ARM_NEON__')
+# elif arch in ["aarch64"]:
+# 	extra_compile_args.append('-mfpu=neon')
+# elif arch in ["x86_64"]:
+#     extra_compile_args.extend(['-mssse3'])   # WARNING: ancient x86_64 CPUs don't have SSSE3
 
 libraries = ['m', 'z']
 library_dirs = ['.']

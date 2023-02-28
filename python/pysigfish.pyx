@@ -41,15 +41,15 @@ cdef class start:
         C init
         '''
         self.state = NULL
-        self.REF = ""
+        self.REF = NULL
         self.NUM_CHANNELS = 0
         self.NUM_THREADS = 0
         self.sbatch = NULL
         self.status = NULL
         self.batch_len = 0
-        self.rid = ""
+        self.rid = NULL
         # self.opt = NULL
-        self.out_paf = ""
+        self.out_paf = NULL
         self.no_full_ref = 0
 
 
@@ -102,10 +102,10 @@ cdef class start:
         # if self.out_paf is not NULL:
         #     free(self.out_paf)
         # free(self.opt)
-        self.logger.debug("free state")
+        # self.logger.debug("free state")
         if self.state is not NULL:
             free_sigfish(self.state)
-        self.logger.debug("free REF")
+        # self.logger.debug("free REF")
         if self.REF is not NULL:
             free(self.REF)
         
@@ -154,29 +154,29 @@ cdef class start:
                 self.sbatch[idx].raw_signal[i] = memview[i]
             idx += 1
 
-        self.logger.debug("calling process_sigfish")
+        # self.logger.debug("calling process_sigfish")
         self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
-        self.logger.debug("process_sigfish done")
+        # self.logger.debug("process_sigfish done")
 
-        self.logger.debug("building return")
+        # self.logger.debug("building return")
         status_dic = {}
         idx = 0
         for channel, read in batch:
             status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
             idx += 1
-        self.logger.debug("freeing memory")
+        # self.logger.debug("freeing memory")
         # free memory
         for i in range(self.batch_len):
             free(self.sbatch[i].raw_signal)
             # for j in range(self.sbatch[i].len_raw_signal):
                 # free(self.sbatch[i].raw_signal[j])
-        self.logger.debug("free sbatch")
+        # self.logger.debug("free sbatch")
         free(self.sbatch)
-        self.logger.debug("free status")
+        # self.logger.debug("free status")
         free(self.status)
         # self.logger.debug("free rid")
         # free(self.rid)
 
-        self.logger.debug("returning")
+        # self.logger.debug("returning")
         return status_dic
 

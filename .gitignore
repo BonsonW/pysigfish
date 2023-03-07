@@ -2,3 +2,4 @@
 build/
 .eggs/
 dist/
+python/pysigfish.c

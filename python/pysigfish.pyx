@@ -132,7 +132,12 @@ cdef class start:
         raw_data = numpy.fromstring(read.raw_data, dtype)
         '''
         # self.logger.debug("allocating sbatch memory")
+        status_dic = {}
         self.batch_len = len(batch)
+        if self.batch_len < 1:
+            self.logger.debug("Batch is of length: {}".format(self.batch_len))
+            return status_dic
+
         self.sbatch = <sigfish_read_t *> PyMem_Malloc(sizeof(sigfish_read_t)*self.batch_len)
         if not self.sbatch:
             raise MemoryError()
@@ -164,7 +169,6 @@ cdef class start:
             # self.logger.debug("process_sigfish done")
 
             # self.logger.debug("building return")
-            status_dic = {}
             idx = 0
             for channel, read in batch:
                 status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)

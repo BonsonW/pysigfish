@@ -21,6 +21,7 @@ class RUread:
     '''
 
     def __init__(self, id, number, chunk_length, raw_data):
+        # print(id, number, chunk_length, raw_data)
         self.id = id
         self.number = number
         self.chunk_length = chunk_length
@@ -34,33 +35,84 @@ def real_main2(args):
     channels = args.channels
 
     s5 = pyslow5.Open(args.slow5, 'r')
-
     recs = s5.seq_reads_multi(aux='all', threads=args.threads, batchsize=channels, pA=True)
-    pysig = pysigfish.start(args.reference, args.paf, channels=channels, threads=args.threads, dev=args.dev)
+    records = []
+    for rec in recs:
+        records.append(rec)
+
+    # pysig = pysigfish.start(args.reference, args.paf, channels=channels, threads=args.threads, DEBUG=1)
+    pysig = pysigfish.start(args.reference, args.paf, channels=channels, threads=1, DEBUG=1)
     batch = []
     dddtype = 'f'
     round = 0
+    F = open('decisions.tsv', 'w')
     print("round: {}".format(round))
     C = 0
-    F = open('decisions.tsv', 'w')
-    for rec in recs:
-        read = RUread(rec["read_id"], round, rec["len_raw_signal"], rec["signal"])
-        channel = C + 1
-        batch.append([channel, read])
-        C += 1
-        print("channel: {}".format(channel))
-        if C == 512:
-            status = pysig.process_batch(batch, dddtype)
-            for ch in status.keys():
-                read_number = status[ch][1]
-                read_id = status[ch][2]
-                decision = status[ch][3]
-                print(read_id, ch, read_number, decision, sep='\t', file=F)
-            C = 0
-            round += 1
-            print("round: {}".format(round))
+    G = 0
+    while round < 10:
+        for rec in records:
+            read = RUread(str(G), G, rec["len_raw_signal"], rec["signal"])
+            channel = C + 1
+            batch.append([channel, read])
+            C += 1
+            G += 1
+            # print("channel: {}".format(channel))
+            if C == 512:
+                status = pysig.process_batch(batch, dddtype)
+                for ch in status.keys():
+                    read_number = status[ch][1]
+                    read_id = status[ch][2]
+                    decision = status[ch][3]
+                    print(read_id, ch, read_number, decision, sep='\t', file=F)
+                C = 0
+                round += 1
+                batch = []
+                print("round: {}".format(round))
+                break
     print("done!")
     F.close()
+    s5.close()
+
+
+def real_main3(args):
+    '''
+    test
+    '''
+    CHANNELS = 1
+    CHUNK_SIZE = 1200
+    ROUNDS=10
+
+    s5 = pyslow5.Open(args.slow5, 'r')
+    recs = s5.seq_reads_multi(aux='all', threads=args.threads, batchsize=CHANNELS, pA=True)
+    records = []
+    for rec in recs:
+        records.append(rec)
+
+    pysig = pysigfish.start(args.reference, args.paf, channels=CHANNELS, threads=args.threads, DEBUG=1)
+    batch = []
+    dddtype = 'f'
+    F = open('decisions.tsv', 'w')
+    for round in range(ROUNDS):
+        print("round: {}".format(round))
+        for channel in range(CHANNELS):
+            print(records[channel+1]["read_id"])
+            read = RUread(records[channel+1]["read_id"], 0, CHUNK_SIZE, records[channel]["signal"][CHUNK_SIZE*round:(CHUNK_SIZE*(round+1))+1])
+            batch.append([channel+1, read])
+            # print("channel: {}".format(channel))
+        for i, j in batch:
+            print(j.id, i, j.number)
+        status = pysig.process_batch(batch, dddtype)
+
+        for ch in status.keys():
+            read_number = status[ch][1]
+            read_id = status[ch][2]
+            decision = status[ch][3]
+            # print(read_id, ch, read_number, decision, sep='\t', file=F)
+            print(read_id, ch, read_number, decision, sep='\t')
+        batch = []
+    print("done!")
+    F.close()
+    s5.close()
 
 
 
@@ -72,25 +124,26 @@ def main():
 
     parser.add_argument("-c", "--channels", type=int, default=512,
                         help="number of channels")
-    parser.add_argument("-s", "--slow5", required=True,
+    parser.add_argument("-s", "--slow5", default="/home/jamfer/Data/SK/hasindu/sequin_reads.blow5",
                         help="slow5 file")
-    parser.add_argument("-r", "--reference", required=True,
+    parser.add_argument("-r", "--reference", default="/home/jamfer/Data/cheat_MinKNOW/gencode.v40.10p.ref.fa",
                         help="reference fasta")
     parser.add_argument("-t", "--threads", type=int, default=8,
                         help="num of threads to use")
-    parser.add_argument("-p", "--paf", required=True,
+    parser.add_argument("-p", "--paf", default="./out.paf",
                         help="paf output")
-    parser.add_argument("-d", "--dev",type=int, default=0,
+    parser.add_argument("-d", "--dev",type=int, default=1,
                         help="log level, 0 is off, 1 is on")
 
 
     args = parser.parse_args()
 
-    if len(sys.argv) == 1:
-        parser.print_help(sys.stderr)
-        sys.exit(1)
+    # if len(sys.argv) == 1:
+    #     parser.print_help(sys.stderr)
+    #     sys.exit(1)
 
-    real_main2(args)
+    # real_main2(args)
+    real_main3(args)
 
 
 if __name__ == '__main__':

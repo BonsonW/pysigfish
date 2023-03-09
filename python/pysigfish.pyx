@@ -37,7 +37,7 @@ cdef class start:
     cdef sigfish_opt_t opt
 
 
-    def __cinit__(self, ref, paf, channels=512, threads=8, dev=0):
+    def __cinit__(self, ref, paf, channels=512, threads=8, DEBUG=0):
         '''
         C init
         '''
@@ -56,7 +56,7 @@ cdef class start:
 
         # sets up logging level/verbosity
         self.logger = logging.getLogger(__name__)
-        if dev == 1:
+        if DEBUG == 1:
             lev = logging.DEBUG
         else:
             lev = logging.WARNING
@@ -90,7 +90,7 @@ cdef class start:
 
 
     
-    def __init__(self, ref, paf, channels=512, threads=8, dev=0):
+    def __init__(self, ref, paf, channels=512, threads=8, DEBUG=0):
         '''
         python init
         '''
@@ -100,8 +100,8 @@ cdef class start:
         '''
         free memory
         '''
-        # if self.out_paf is not NULL:
-        #     free(self.out_paf)
+        if self.out_paf is not NULL:
+            free(self.out_paf)
         # free(self.opt)
         # self.logger.debug("free state")
         if self.state is not NULL:
@@ -152,14 +152,13 @@ cdef class start:
             for channel, read in batch:
                 self.sbatch[idx].read_number = read.number
                 rid = str.encode(read.id)
-                self.rid = strdup(rid)
-                self.sbatch[idx].read_id = self.rid
+                self.sbatch[idx].read_id = strdup(rid)
                 self.sbatch[idx].channel = channel
                 self.sbatch[idx].len_raw_signal = read.chunk_length
                 self.sbatch[idx].raw_signal = <float *> PyMem_Malloc(sizeof(float)*read.chunk_length)
                 # sig = np.fromstring(read.raw_data, signal_dtype)
                 # memview = memoryview(sig)
-                memview = memoryview(np.fromstring(read.raw_data, signal_dtype))
+                memview = memoryview(np.frombuffer(read.raw_data, signal_dtype))
                 for i in range(read.chunk_length):
                     self.sbatch[idx].raw_signal[i] = memview[i]
                 idx += 1
@@ -182,7 +181,7 @@ cdef class start:
             if self.batch_len > 0:
                 for i in range(self.batch_len):
                     PyMem_Free(self.sbatch[i].raw_signal)
-                    # free(self.sbatch[i].read_id)
+                    free(self.sbatch[i].read_id)
                     # for j in range(self.sbatch[i].len_raw_signal):
                         # free(self.sbatch[i].raw_signal[j])
             # self.logger.debug("free sbatch")
@@ -190,6 +189,7 @@ cdef class start:
             # self.logger.debug("free status")
             free(self.status)
             # self.logger.debug("free rid")
+            # free(self.rid)
             # free(self.rid)
 
 

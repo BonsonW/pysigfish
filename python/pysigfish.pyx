@@ -94,7 +94,7 @@ cdef class start:
         '''
         python init
         '''
-        somelist = []
+        pass
     
     def __dealloc__(self):
         '''
@@ -179,10 +179,12 @@ cdef class start:
         finally:
             # self.logger.debug("freeing memory")
             # free memory
-            for i in range(self.batch_len):
-                PyMem_Free(self.sbatch[i].raw_signal)
-                # for j in range(self.sbatch[i].len_raw_signal):
-                    # free(self.sbatch[i].raw_signal[j])
+            if self.batch_len > 0:
+                for i in range(self.batch_len):
+                    PyMem_Free(self.sbatch[i].raw_signal)
+                    # free(self.sbatch[i].read_id)
+                    # for j in range(self.sbatch[i].len_raw_signal):
+                        # free(self.sbatch[i].raw_signal[j])
             # self.logger.debug("free sbatch")
             PyMem_Free(self.sbatch)
             # self.logger.debug("free status")

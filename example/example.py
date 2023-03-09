@@ -78,9 +78,9 @@ def real_main3(args):
     '''
     test
     '''
-    CHANNELS = 1
+    CHANNELS = 10
     CHUNK_SIZE = 1200
-    ROUNDS=10
+    ROUNDS=50
 
     s5 = pyslow5.Open(args.slow5, 'r')
     recs = s5.seq_reads_multi(aux='all', threads=args.threads, batchsize=CHANNELS, pA=True)
@@ -95,12 +95,16 @@ def real_main3(args):
     for round in range(ROUNDS):
         print("round: {}".format(round))
         for channel in range(CHANNELS):
-            print(records[channel+1]["read_id"])
-            read = RUread(records[channel+1]["read_id"], 0, CHUNK_SIZE, records[channel]["signal"][CHUNK_SIZE*round:(CHUNK_SIZE*(round+1))+1])
+            # print(records[channel+1]["read_id"])
+            print("chunks in read {} {} chunks:{} total:{}".format(records[channel+1]["read_id"], channel+1, (round+1)*CHUNK_SIZE, records[channel+1]['len_raw_signal']))
+            if (round+1)*CHUNK_SIZE >= records[channel+1]['len_raw_signal']:
+                print("No more chunks in read {} {} chunks:{} total:{}".format(records[channel+1]["read_id"], channel+1, (round+1)*CHUNK_SIZE, records[channel+1]['len_raw_signal']))
+                continue
+            read = RUread(records[channel+1]["read_id"], 0, CHUNK_SIZE, records[channel+1]["signal"][CHUNK_SIZE*round:(CHUNK_SIZE*(round+1))+1])
             batch.append([channel+1, read])
             # print("channel: {}".format(channel))
-        for i, j in batch:
-            print(j.id, i, j.number)
+        # for i, j in batch:
+            # print(j.id, i, j.number)
         status = pysig.process_batch(batch, dddtype)
 
         for ch in status.keys():

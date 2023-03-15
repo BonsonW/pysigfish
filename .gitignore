@@ -3,3 +3,7 @@ build/
 .eggs/
 dist/
 python/pysigfish.c
+*.tsv
+*.paf
+*.log
+*.supp

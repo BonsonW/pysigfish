@@ -53,18 +53,19 @@ cdef class start:
         self.out_paf = NULL
         self.no_full_ref = 0
 
-
         # sets up logging level/verbosity
         self.logger = logging.getLogger(__name__)
         if DEBUG == 1:
             lev = logging.DEBUG
+            self.logger.setLevel(logging.DEBUG)
         else:
             lev = logging.WARNING
+            self.logger.setLevel(logging.WARNING)
         
         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',
                             datefmt='%d-%b-%y %H:%M:%S', level=lev)
         
-        self.logger.debug("initiating sigfish")
+        print("initiating sigfish", file=sys.stderr)
 
         REF = str.encode(ref)
         self.REF = strdup(REF)
@@ -103,10 +104,10 @@ cdef class start:
         if self.out_paf is not NULL:
             free(self.out_paf)
         # free(self.opt)
-        # self.logger.debug("free state")
+        # print("free state", file=sys.stderr)
         if self.state is not NULL:
             free_sigfish(self.state)
-        # self.logger.debug("free REF")
+        # print("free REF", file=sys.stderr)
         if self.REF is not NULL:
             free(self.REF)
         
@@ -131,22 +132,22 @@ cdef class start:
         chunk_length = read.chunk_length
         raw_data = numpy.fromstring(read.raw_data, dtype)
         '''
-        # self.logger.debug("allocating sbatch memory")
+        # print("allocating sbatch memory", file=sys.stderr)
         status_dic = {}
         self.batch_len = len(batch)
         if self.batch_len < 1:
-            self.logger.debug("Batch is of length: {}".format(self.batch_len))
+            print("Batch is of length: {}".format(self.batch_len), file=sys.stderr)
             return status_dic
 
         self.sbatch = <sigfish_read_t *> PyMem_Malloc(sizeof(sigfish_read_t)*self.batch_len)
         if not self.sbatch:
             raise MemoryError()
-        # self.logger.debug("batch data:")
+        # print("batch data:", file=sys.stderr)
         # for channel, read in batch:
-        #     self.logger.debug("channel: {}, read_number: {}".format(channel, read.number))
+        #     print("channel: {}, read_number: {}".format(channel, read.number), file=sys.stderr)
         #     break
 
-        # self.logger.debug("starting build sbatch for loop")
+        # print("starting build sbatch for loop", file=sys.stderr)
         try:
             idx = 0
             for channel, read in batch:
@@ -163,20 +164,20 @@ cdef class start:
                     self.sbatch[idx].raw_signal[i] = memview[i]
                 idx += 1
 
-            # self.logger.debug("calling process_sigfish")
+            # print("calling process_sigfish", file=sys.stderr)
             self.status = process_sigfish(self.state, self.sbatch, self.batch_len)
-            # self.logger.debug("process_sigfish done")
+            # print("process_sigfish done", file=sys.stderr)
 
-            # self.logger.debug("building return")
+            # print("building return", file=sys.stderr)
             idx = 0
             for channel, read in batch:
                 status_dic[channel] = (channel, read.number, read.id, self.status[idx], read.raw_data)
                 idx += 1
 
-            # self.logger.debug("returning")
+            # print("returning", file=sys.stderr)
             return status_dic
         finally:
-            # self.logger.debug("freeing memory")
+            # print("freeing memory", file=sys.stderr)
             # free memory
             if self.batch_len > 0:
                 for i in range(self.batch_len):
@@ -184,11 +185,11 @@ cdef class start:
                     free(self.sbatch[i].read_id)
                     # for j in range(self.sbatch[i].len_raw_signal):
                         # free(self.sbatch[i].raw_signal[j])
-            # self.logger.debug("free sbatch")
+            # print("free sbatch", file=sys.stderr)
             PyMem_Free(self.sbatch)
-            # self.logger.debug("free status")
+            # print("free status", file=sys.stderr)
             free(self.status)
-            # self.logger.debug("free rid")
+            # print("free rid", file=sys.stderr)
             # free(self.rid)
             # free(self.rid)
 

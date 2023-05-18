@@ -35,9 +35,12 @@ cdef class start:
     cdef char* rid
     cdef int8_t no_full_ref
     cdef sigfish_opt_t opt
+    cdef float dtw_cutoff
+    cdef int query_size_sig
+    cdef int query_size_events
 
 
-    def __cinit__(self, ref, paf, channels=512, threads=8, DEBUG=0):
+    def __cinit__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, DEBUG=0):
         '''
         C init
         '''
@@ -49,9 +52,11 @@ cdef class start:
         self.status = NULL
         self.batch_len = 0
         self.rid = NULL
-        # self.opt = NULL
         self.out_paf = NULL
         self.no_full_ref = 0
+        self.dtw_cutoff = 0
+        self.query_size_sig = 0
+        self.query_size_events = 0
 
         # sets up logging level/verbosity
         self.logger = logging.getLogger(__name__)
@@ -73,15 +78,18 @@ cdef class start:
         self.out_paf = strdup(PAF)
         self.NUM_CHANNELS = channels
         self.NUM_THREADS = threads
-        '''
-        int num_thread;
-		const char *debug_paf;
-		int8_t no_full_ref;
-        '''
+        self.dtw_cutoff = dtw_cutoff
+        self.query_size_sig = query_size_sig
+        self.query_size_events = query_size_events
+        
+        # set up opt struct
         self.opt.num_thread = self.NUM_THREADS
         self.opt.debug_paf = self.out_paf
-        # self.opt.debug_paf = NULL
         self.opt.no_full_ref = self.no_full_ref
+        self.opt.dtw_cutoff = self.dtw_cutoff
+        self.opt.query_size_sig = self.query_size_sig
+        self.opt.query_size_events = self.query_size_events
+
         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
         if self.state is NULL:
             self.logger.error("Ref '{}' could not be opened and sigfish not initialised".format(ref))
@@ -89,9 +97,8 @@ cdef class start:
         if self.state is NULL:
             raise MemoryError()
 
-
     
-    def __init__(self, ref, paf, channels=512, threads=8, DEBUG=0):
+    def __init__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, DEBUG=0):
         '''
         python init
         '''
@@ -136,7 +143,7 @@ cdef class start:
         status_dic = {}
         self.batch_len = len(batch)
         if self.batch_len < 1:
-            print("Batch is of length: {}".format(self.batch_len), file=sys.stderr)
+            self.logger.debug("Batch is of length: {}".format(self.batch_len))
             return status_dic
 
         self.sbatch = <sigfish_read_t *> PyMem_Malloc(sizeof(sigfish_read_t)*self.batch_len)

@@ -25,6 +25,9 @@ cdef extern from "sigfish.h":
 		int num_thread;
 		const char* debug_paf;
 		int8_t no_full_ref;
+		float dtw_cutoff;
+		int query_size_sig;
+		int query_size_events;
 
 	
 	# sigfish interface

@@ -79,7 +79,7 @@ def real_main3(args):
     test
     '''
     CHANNELS = 10
-    CHUNK_SIZE = 1200 # todo: update for rna004 pore option
+    CHUNK_SIZE = 1200
     ROUNDS=50
 
     s5 = pyslow5.Open(args.slow5, 'r')
@@ -138,7 +138,7 @@ def main():
                         help="paf output")
     parser.add_argument("-d", "--dev",type=int, default=1,
                         help="log level, 0 is off, 1 is on")
-    # todo: update for rna004 pore option
+
 
     args = parser.parse_args()
 

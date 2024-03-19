@@ -40,7 +40,7 @@ cdef class start:
     cdef int query_size_events
 
 
-    def __cinit__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, pore=0, DEBUG=0):
+    def __cinit__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, DEBUG=0):
         '''
         C init
         '''
@@ -89,7 +89,6 @@ cdef class start:
         self.opt.dtw_cutoff = self.dtw_cutoff
         self.opt.query_size_sig = self.query_size_sig
         self.opt.query_size_events = self.query_size_events
-        self.opt.pore = pore
 
         self.state = init_sigfish(self.REF, self.NUM_CHANNELS, self.opt)
         if self.state is NULL:
@@ -99,7 +98,7 @@ cdef class start:
             raise MemoryError()
 
     
-    def __init__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, pore=0, DEBUG=0):
+    def __init__(self, ref, paf, channels=512, threads=8, dtw_cutoff=70.0, query_size_sig=6000, query_size_events=250, DEBUG=0):
         '''
         python init
         '''

@@ -28,7 +28,7 @@ cdef extern from "sigfish.h":
 		float dtw_cutoff;
 		int query_size_sig;
 		int query_size_events;
-
+		int8_t pore;
 	
 	# sigfish interface
 	sigfish_state_t *init_sigfish(const char *ref, int num_channels, sigfish_opt_t opt);

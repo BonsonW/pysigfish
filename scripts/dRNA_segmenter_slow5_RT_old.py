@@ -4,8 +4,7 @@ import argparse
 import pyslow5 as slow5
 import matplotlib.pyplot as plt
 from matplotlib import rcParams
-# rcParams['figure.figsize'] = [12.0, 16.0]
-rcParams['figure.figsize'] = [20.0, 12.0]
+rcParams['figure.figsize'] = [12.0, 16.0]
 
 
 '''
@@ -67,25 +66,17 @@ def main():
                         help="slow5 file")
     # parser.add_argument("-w", "--window", type=int, default=250,
     #                     help="Window size")
-    parser.add_argument("--chunksize", type=int, default=500,
+    parser.add_argument("--chunksize", type=int, default=1200,
                         help="readUntil chunksize")
-    parser.add_argument("-i", "--start_chunks", type=int, default=4,
+    parser.add_argument("-i", "--start_chunks", type=int, default=6,
                         help="num of chunks to store before processing")
-    parser.add_argument("-k", "--calc_chunk", type=int, default=2,
-                        help="which chunk to start calculating threshold")
-    parser.add_argument("-c", "--corrector", type=int, default=1200,
-                        help="Window size for increasing total error correction - better long segment detection")
-    parser.add_argument("-w", "--window", type=int, default=100,
-                        help="Minimum segment window size to be detected")
-    parser.add_argument("-e", "--error", type=int, default=5,
-                        help="Allowable error in segment algorithm")
-    parser.add_argument("-d", "--seg_dist", type=int, default=800,
+    parser.add_argument("-w", "--window", type=int, default=50,
+                        help="min window size for seg building")
+    parser.add_argument("-d", "--seg_dist", type=int, default=1800,
                         help="Maximum distance between 2 segments to be merged into 1")
     parser.add_argument("-m", "--min_seg_len", type=int, default=3000,
                         help="Minimum length of a segment to be constructed")
-    parser.add_argument("-n", "--no_err_thresh", type=int, default=800,
-                        help="number of measurements to ignore errors")
-    parser.add_argument("-t", "--std_scale", type=float, default=1.0,
+    parser.add_argument("-t", "--std_scale", type=float, default=1.1,
                         help="Scale factor of STDev about median")
     parser.add_argument("-p", "--plot", action="store_true",
                         help="plot output")
@@ -99,7 +90,7 @@ def main():
     # arguments...put this into something better for Tansel
     # sig = args.signal         # signal file
     # SS = args.seq_sum          # Seq_sum.txt
-    # w = args.window      # window size
+    w = args.window      # window size
     # val_reads = sys.argv[3]
     # error = int(sys.argv[3])
     # thresh = int(sys.argv[4])
@@ -121,11 +112,9 @@ def main():
         sig_length = 0
 
             # this is the algo. Simple yet effective
-        prev = False  # previous string
-        err = 0       # total error
-        prev_err = 0  # consecutive error
+       
         c = 0         # counter
-        w = args.corrector        # window to increase total error thresh
+        prev = False
         seg_dist = args.seg_dist  # distance between 2 segs to be merged as one
         start = 0     # start pos
         end = 0       # end pos
@@ -154,13 +143,13 @@ def main():
                 # sig_length += len(chunk)
                 # mn = sig.min()
                 # mx = sig.max()
-                mean = np.mean(chunk[args.calc_chunk:])
+                mean = np.mean(chunk)
                 # mean = 120
-                median = np.median(chunk[args.calc_chunk:])
+                median = np.median(chunk)
                 # use this with outlier rejection to fix stdev thresholds
-                stdev = np.std(chunk[args.calc_chunk:])
+                stdev = np.std(chunk)
                 # get variance
-                var = np.var(chunk[args.calc_chunk:])
+                var = np.var(chunk)
                 top = median + (stdev * args.std_scale)
                 # bot = median - (stdev * args.std_scale)
                 # top = mean + (stdev * args.std_scale)
@@ -172,91 +161,44 @@ def main():
                 sig_length += 1
                 a = chunk[i]
                 if a < top: # If datapoint is within range
-                    # print("in range")
+                    print("in range")
                     if not prev:
                         start = sig_length
                         prev = True
-                        err = 0
-                    c += 1 # increase counter
-                    # print("c:", c)
-                    # w += 1 # increase window corrector count
-                    # print("w:", w)
-                    if prev_err:
-                        prev_err = 0
-                        # print("prev_err:", prev_err)
-                    if c >= args.window and c >= w and not c % w: # if current window longer than detect limit, and corrector, and is divisible by corrector
-                        err -= 1 # drop current error count by 1
-                        # print("window longer than detect limit. err:", err)
-
-                else: # not within range
-                    # print("not in range")
-                    if prev and err < args.error: # winthin segment and less than error
-                        # print("less than args.error")
-                        c += 1
-                        # print("c:", c)
-                        if sig_length >= args.no_err_thresh:
-                            err += 1
-                            # print("err:", err)
-                            prev_err += 1
-                        # print("prev_err:", prev_err)
-                        if c >= args.window and c >= w and not c % w:
-                            # print("c: {} >= args.window: {} and c: {} >= w: {} and not c: {} % w: {}".format(c, args.window, c, w, c, w))
-                            err -= 1
-                            # print("reduce err: {}", err)
-                    elif prev: # within segment, above error, and greater than window
-                        if c >= args.window:
-                            # print("not less than args.error but c: {} >= args.window: {}".format(c, args.window))
-                            end = sig_length - prev_err # go back to where error stretch began for accurate cutting
-                            prev = False
-                            if segs and start - segs[-1][1] < seg_dist: # if segs very close, merge them
-                                # print("Segs are very close, merge them")
-                                segs[-1][1] = end
-                            else:
-                                segs.append([start, end]) # save segment
-                            c = 0
-                            # print("c:", c)
-                            err = 0
-                            # print("err:", err)
-                            prev_err = 0
-                            # print("prev_err:", prev_err)
-                        else: # within segment but not long enough
-                            # print("had a segment but not long enough [start, end, length]:", start, sig_length, sig_length-start)
-                            prev = False
-                            c = 0
-                            # print("c:", c)
-                            err = 0
-                            # print("err:", err)
-                            prev_err = 0
-                            # print("prev_err:", prev_err)
-                    elif segs and sig_length - segs[-1][1] > seg_dist:
-                        # if segs and (segs[-1][1]-segs[-1][0] >= args.min_seg_len) and sig_length - segs[-1][1] > seg_dist:
-                        # print("Has segs, seg end - start: {} >= args.min_seg_len: {}, and sig_length - seg end: {} > seg_dist: {}".format(segs[-1][1]-segs[-1][0],args.min_seg_len, sig_length - segs[-1][1], seg_dist))
-                        break_point = sig_length
-                        # print("Break point: {}".format(break_point))
-                        prev = False
-                        c = 0
-                        # print("c: ", c)
-                        err = 0
-                        # print("err: ", err)
-                        prev_err = 0
-                        # print("prev_err: ", prev_err)
-                        adapter_found = True
-                        # print("adapter_found, breaking")
-                        break
                     else:
-                        continue
+                        end = sig_length
+                elif a > top and prev: # if out of range and within a seg
+                    if segs and (end-start >= w) and (start - segs[-1][1] < seg_dist): # if seg close to other seg, merge
+                        segs[-1][1] = end
+                        print("merging segs")
+                        print(segs)
+                    elif segs and (segs[-1][1]-segs[-1][0] >= args.min_seg_len): # if segs, and the seg is over min seg length, and current seg not close, break
+                        break_point = sig_length
+                        prev = False
+                        adapter_found = True
+                        print("adapter_found, breaking")
+                        break
+                    else: # log a segment
+                        segs.append([start, end])
+                        if len(segs) > 1:
+                            break_point = sig_length
+                            print("segs > 1, breaking")
+                            break
+                    prev = False
+                else: # out of range and no current seg
+                    continue
             if adapter_found:
                 break
-        
+        if not segs:
+            print("{}\t{}\t{}".format(readID, "NULL", "NULL"))
+            continue
         if not adapter_found:
             break_point = sig_length
-            # print("{}\t{}\t{}".format(readID, "NULL", "NULL"))
-
         for a, b in segs:
             x, y = a, b
             print("{}\t{}\t{}".format(readID, x, y))
             break
-            
+        
 
     
         if args.plot:
@@ -281,7 +223,7 @@ def main():
             # ax.text(mid, y, readid)
             # ax.axvline(x=x, color='m')
             for i in [j for j in range(args.start_chunks+1)]:
-                ax.axvline(x=i*args.chunksize, color='red')
+                ax.axvline(x=i*1200, color='red')
             
             # show where it stopped processing more signal and broke out
             ax.axvline(x=break_point, color='blue')
@@ -290,8 +232,8 @@ def main():
             for i in range(len(std_list)):
                 st = std_list[i]
                 med = med_list[i]
-                xstart = i*args.chunksize
-                xstop= (i+1)*args.chunksize
+                xstart = i*1200
+                xstop= (i+1)*1200
                 ytop = med+st
                 ybot = med-st
                 # plt.axvspan(i*1200, (i+1)*1200, median-st, median+st, alpha=0.5, color='pink')
@@ -302,7 +244,6 @@ def main():
             # ax.axvline(x=sig_length, color='blue')
             ax.axvspan(x, y, alpha=0.5, color='orange')
             ax.axhline(y=median, color='g')
-            # ax.axhline(y=90, color='r')
             # ax.axhline(y=std, color='')
             ax.axhline(y=top, color='purple')
             plt.plot(sig, color='k')

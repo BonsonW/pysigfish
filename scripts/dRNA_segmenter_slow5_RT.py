@@ -134,26 +134,18 @@ def main():
         med_list = []
         adapter_found = False
         for chunk_count, chunk in enumerate(chunks):
-            # print("processing chunk: {}".format(chunk_count))
-            # print("chunk {}".format(chunk))
             if chunk_count in start_chunks:
-                # chunk_meds.append(median)
-                # chunk_stdevs.append(stdev)
                 sig_store = np.append(sig_store, chunk)
                 median = np.median(chunk)
                 stdev = np.std(chunk)
                 std_list.append(stdev)
                 med_list.append(median)
-                # cum_sig = np.append(cum_sig, chunk)
                 continue
             # parameter tuning visualisation
             # TODO: Put tuning plots here
             if len(sig_store) > 0:
                 chunk = np.append(sig_store, chunk)
                 sig_store = []
-                # sig_length += len(chunk)
-                # mn = sig.min()
-                # mx = sig.max()
                 mean = np.mean(chunk[args.calc_chunk:])
                 # mean = 120
                 median = np.median(chunk[args.calc_chunk:])
@@ -162,9 +154,7 @@ def main():
                 # get variance
                 var = np.var(chunk[args.calc_chunk:])
                 top = median + (stdev * args.std_scale)
-                # bot = median - (stdev * args.std_scale)
-                # top = mean + (stdev * args.std_scale)
-                # bot = mean - (stdev * args.std_scale)
+
             
             cum_sig = np.append(cum_sig, chunk)
            
@@ -172,76 +162,49 @@ def main():
                 sig_length += 1
                 a = chunk[i]
                 if a < top: # If datapoint is within range
-                    # print("in range")
                     if not prev:
                         start = sig_length
                         prev = True
                         err = 0
                     c += 1 # increase counter
-                    # print("c:", c)
-                    # w += 1 # increase window corrector count
-                    # print("w:", w)
                     if prev_err:
                         prev_err = 0
-                        # print("prev_err:", prev_err)
-                    if c >= args.window and c >= w and not c % w: # if current window longer than detect limit, and corrector, and is divisible by corrector
+                    
+                    # if current window longer than detect limit, and corrector, and is divisible by corrector
+                    if c >= args.window and c >= w and not c % w and err > 0:
                         err -= 1 # drop current error count by 1
-                        # print("window longer than detect limit. err:", err)
 
                 else: # not within range
-                    # print("not in range")
                     if prev and err < args.error: # winthin segment and less than error
-                        # print("less than args.error")
                         c += 1
-                        # print("c:", c)
                         if sig_length >= args.no_err_thresh:
                             err += 1
-                            # print("err:", err)
                             prev_err += 1
-                        # print("prev_err:", prev_err)
-                        if c >= args.window and c >= w and not c % w:
-                            # print("c: {} >= args.window: {} and c: {} >= w: {} and not c: {} % w: {}".format(c, args.window, c, w, c, w))
+                        if c >= args.window and c >= w and not c % w and err > 0:
                             err -= 1
-                            # print("reduce err: {}", err)
                     elif prev: # within segment, above error, and greater than window
                         if c >= args.window:
-                            # print("not less than args.error but c: {} >= args.window: {}".format(c, args.window))
                             end = sig_length - prev_err # go back to where error stretch began for accurate cutting
                             prev = False
                             if segs and start - segs[-1][1] < seg_dist: # if segs very close, merge them
-                                # print("Segs are very close, merge them")
                                 segs[-1][1] = end
                             else:
                                 segs.append([start, end]) # save segment
                             c = 0
-                            # print("c:", c)
                             err = 0
-                            # print("err:", err)
                             prev_err = 0
-                            # print("prev_err:", prev_err)
                         else: # within segment but not long enough
-                            # print("had a segment but not long enough [start, end, length]:", start, sig_length, sig_length-start)
                             prev = False
                             c = 0
-                            # print("c:", c)
                             err = 0
-                            # print("err:", err)
                             prev_err = 0
-                            # print("prev_err:", prev_err)
                     elif segs and sig_length - segs[-1][1] > seg_dist:
-                        # if segs and (segs[-1][1]-segs[-1][0] >= args.min_seg_len) and sig_length - segs[-1][1] > seg_dist:
-                        # print("Has segs, seg end - start: {} >= args.min_seg_len: {}, and sig_length - seg end: {} > seg_dist: {}".format(segs[-1][1]-segs[-1][0],args.min_seg_len, sig_length - segs[-1][1], seg_dist))
                         break_point = sig_length
-                        # print("Break point: {}".format(break_point))
                         prev = False
                         c = 0
-                        # print("c: ", c)
                         err = 0
-                        # print("err: ", err)
                         prev_err = 0
-                        # print("prev_err: ", prev_err)
                         adapter_found = True
-                        # print("adapter_found, breaking")
                         break
                     else:
                         continue
@@ -250,7 +213,6 @@ def main():
         
         if not adapter_found:
             break_point = sig_length
-            # print("{}\t{}\t{}".format(readID, "NULL", "NULL"))
 
         for a, b in segs:
             x, y = a, b

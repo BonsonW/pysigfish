@@ -146,14 +146,15 @@ def main():
             if len(sig_store) > 0:
                 chunk = np.append(sig_store, chunk)
                 sig_store = []
-                mean = np.mean(chunk[args.calc_chunk:])
+                mean = np.mean(chunk)
                 # mean = 120
-                median = np.median(chunk[args.calc_chunk:])
+                median = np.median(chunk)
                 # use this with outlier rejection to fix stdev thresholds
-                stdev = np.std(chunk[args.calc_chunk:])
+                stdev = np.std(chunk)
                 # get variance
-                var = np.var(chunk[args.calc_chunk:])
+                var = np.var(chunk)
                 top = median + (stdev * args.std_scale)
+
 
             
             cum_sig = np.append(cum_sig, chunk)
@@ -261,6 +262,8 @@ def main():
                 # plt.axvspan(xstart, xstop, alpha=0.5, color='pink')
                 ax.fill_between([xstart, xstop], ybot, ytop, alpha=0.8, color='violet')
             
+            # ax.axvspan(args.chunksize*args.calc_chunk, args.chunksize*args.start_chunks+1, alpha=0.5, color='green')
+
             # ax.axvline(x=sig_length, color='blue')
             ax.axvspan(x, y, alpha=0.5, color='orange')
             ax.axhline(y=median, color='g')

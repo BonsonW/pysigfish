@@ -7,3 +7,4 @@ python/pysigfish.c
 *.paf
 *.log
 *.supp
+*.txt

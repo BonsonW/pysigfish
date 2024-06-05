@@ -17,12 +17,12 @@ cimport numpy as np
 # _always_ do that, or you will have segfaults
 np.import_array()
 
-
 cdef class start:
     '''
     Creates a new sigfish object
 
     '''
+    # cdef sigfish_log_level_opt err_level
     cdef sigfish_state_t *state
     cdef char* REF
     cdef char* out_paf
@@ -44,6 +44,7 @@ cdef class start:
         '''
         C init
         '''
+        # self.err_level = sigfish_log_level_opt.LOG_OFF
         self.state = NULL
         self.REF = NULL
         self.NUM_CHANNELS = 0
@@ -60,13 +61,28 @@ cdef class start:
         self.opt.pore = pore
         
         # sets up logging level/verbosity
+        '''
+        LOG_OFF=0,      # nothing at all
+		LOG_ERR,        # error messages
+		LOG_WARN,       # warning and error messages
+		LOG_INFO,       # information, warning and error messages
+		LOG_VERB,       # verbose, information, warning and error messages
+		LOG_DBUG,       # debugging, verbose, information, warning and error messages
+		LOG_TRAC        # tracing, debugging, verbose, information, warning and error messages
+        '''
         self.logger = logging.getLogger(__name__)
-        if DEBUG == 1:
+        if DEBUG == 2:
             lev = logging.DEBUG
             self.logger.setLevel(logging.DEBUG)
+            set_log_level(sigfish_log_level_opt.LOG_DBUG)
+        elif DEBUG == 1:
+            lev = logging.INFO
+            self.logger.setLevel(logging.INFO)
+            set_log_level(sigfish_log_level_opt.LOG_DBUG)
         else:
-            lev = logging.WARNING
-            self.logger.setLevel(logging.WARNING)
+            lev = logging.ERROR
+            self.logger.setLevel(logging.ERROR)
+            set_log_level(sigfish_log_level_opt.LOG_ERR)
         
         logging.basicConfig(format='%(asctime)s - [%(levelname)s]: %(message)s',
                             datefmt='%d-%b-%y %H:%M:%S', level=lev)

@@ -34,3 +34,17 @@ cdef extern from "sigfish.h":
 	sigfish_state_t *init_sigfish(const char *ref, int num_channels, sigfish_opt_t opt);
 	sigfish_status *process_sigfish(sigfish_state_t *state, sigfish_read_t *read_batch, int batch_size);
 	void free_sigfish(sigfish_state_t *state);
+
+cdef extern from "error.h":
+
+	# the level of verbosity in the log printed to the standard error
+	cdef enum sigfish_log_level_opt:
+		LOG_OFF=0,      # nothing at all
+		LOG_ERR,        # error messages
+		LOG_WARN,       # warning and error messages
+		LOG_INFO,       # information, warning and error messages
+		LOG_VERB,       # verbose, information, warning and error messages
+		LOG_DBUG,       # debugging, verbose, information, warning and error messages
+		LOG_TRAC        # tracing, debugging, verbose, information, warning and error messages
+	
+	void set_log_level(sigfish_log_level_opt level);
